@@ -1,0 +1,383 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="686pt" height="800pt" viewBox="0.00 0.00 686.00 800.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 796)">
+<title>CppRoadmap</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-796 681.56,-796 681.56,4 -4,4"/>
+<!-- Central -->
+<g id="node1" class="node">
+<title>Central</title>
+<ellipse fill="skyblue" stroke="black" cx="62" cy="-396" rx="58" ry="58"/>
+<ellipse fill="none" stroke="black" cx="62" cy="-396" rx="62" ry="62"/>
+<text xml:space="preserve" text-anchor="middle" x="62" y="-393" font-family="Times,serif" font-size="10.00">C++ 学习路线2025 版</text>
+</g>
+<!-- S1 -->
+<g id="node2" class="node">
+<title>S1</title>
+<polygon fill="lightgreen" stroke="black" points="259.77,-703 161,-703 161,-667 259.77,-667 259.77,-703"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-682" font-family="Times,serif" font-size="10.00">阶段1: 入门基础(2-3周)</text>
+</g>
+<!-- Central&#45;&gt;S1 -->
+<g id="edge1" class="edge">
+<title>Central-&gt;S1</title>
+<path fill="none" stroke="black" d="M90.88,-451.04C121.89,-512.27 170.8,-608.83 194.93,-656.47"/>
+<polygon fill="black" stroke="black" points="191.78,-657.99 199.42,-665.33 198.02,-654.82 191.78,-657.99"/>
+</g>
+<!-- S2 -->
+<g id="node8" class="node">
+<title>S2</title>
+<polygon fill="lightyellow" stroke="black" points="259.77,-542 161,-542 161,-506 259.77,-506 259.77,-542"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-521" font-family="Times,serif" font-size="10.00">阶段2: 核心特性(3-4周)</text>
+</g>
+<!-- Central&#45;&gt;S2 -->
+<g id="edge7" class="edge">
+<title>Central-&gt;S2</title>
+<path fill="none" stroke="black" d="M109.32,-436.5C132.37,-456.66 159.56,-480.44 179.77,-498.11"/>
+<polygon fill="black" stroke="black" points="177.28,-500.58 187.11,-504.53 181.89,-495.31 177.28,-500.58"/>
+</g>
+<!-- S3 -->
+<g id="node14" class="node">
+<title>S3</title>
+<polygon fill="lightpink" stroke="black" points="259.77,-414 161,-414 161,-378 259.77,-378 259.77,-414"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-393" font-family="Times,serif" font-size="10.00">阶段3: 进阶基础(2-3周)</text>
+</g>
+<!-- Central&#45;&gt;S3 -->
+<g id="edge13" class="edge">
+<title>Central-&gt;S3</title>
+<path fill="none" stroke="black" d="M124.23,-396C132.54,-396 141.06,-396 149.34,-396"/>
+<polygon fill="black" stroke="black" points="149.34,-399.5 159.34,-396 149.34,-392.5 149.34,-399.5"/>
+</g>
+<!-- S4 -->
+<g id="node20" class="node">
+<title>S4</title>
+<polygon fill="lightcoral" stroke="black" points="259.77,-272 161,-272 161,-236 259.77,-236 259.77,-272"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-251" font-family="Times,serif" font-size="10.00">阶段4: 实战提升(4-6周)</text>
+</g>
+<!-- Central&#45;&gt;S4 -->
+<g id="edge19" class="edge">
+<title>Central-&gt;S4</title>
+<path fill="none" stroke="black" d="M107.32,-353.01C131.72,-329.33 161.23,-300.71 182.23,-280.34"/>
+<polygon fill="black" stroke="black" points="184.56,-282.96 189.3,-273.48 179.69,-277.93 184.56,-282.96"/>
+</g>
+<!-- S5 -->
+<g id="node26" class="node">
+<title>S5</title>
+<polygon fill="lavender" stroke="black" points="259.77,-124 161,-124 161,-88 259.77,-88 259.77,-124"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-103" font-family="Times,serif" font-size="10.00">阶段5: 面试冲刺(2-3周)</text>
+</g>
+<!-- Central&#45;&gt;S5 -->
+<g id="edge25" class="edge">
+<title>Central-&gt;S5</title>
+<path fill="none" stroke="black" d="M90.88,-340.77C121.89,-279.33 170.8,-182.43 194.93,-134.62"/>
+<polygon fill="black" stroke="black" points="198.04,-136.24 199.42,-125.74 191.79,-133.09 198.04,-136.24"/>
+</g>
+<!-- Syntax -->
+<g id="node3" class="node">
+<title>Syntax</title>
+<ellipse fill="lightblue" stroke="black" cx="379.58" cy="-774" rx="27.66" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-771" font-family="Times,serif" font-size="10.00">语法基础</text>
+</g>
+<!-- S1&#45;&gt;Syntax -->
+<g id="edge2" class="edge">
+<title>S1-&gt;Syntax</title>
+<path fill="none" stroke="green" d="M232.63,-703.31C249.21,-716.86 273.29,-734.97 296.77,-747 311.09,-754.34 327.82,-760.27 342.41,-764.69"/>
+<polygon fill="green" stroke="green" points="341.04,-767.94 351.61,-767.36 342.98,-761.22 341.04,-767.94"/>
+</g>
+<!-- Pointer -->
+<g id="node5" class="node">
+<title>Pointer</title>
+<ellipse fill="lightblue" stroke="black" cx="379.58" cy="-720" rx="27.66" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-717" font-family="Times,serif" font-size="10.00">底层概念</text>
+</g>
+<!-- S1&#45;&gt;Pointer -->
+<g id="edge4" class="edge">
+<title>S1-&gt;Pointer</title>
+<path fill="none" stroke="green" d="M260.19,-695.22C286.2,-700.66 317.68,-707.25 341.63,-712.27"/>
+<polygon fill="green" stroke="green" points="340.75,-715.66 351.25,-714.28 342.18,-708.81 340.75,-715.66"/>
+</g>
+<!-- Output1 -->
+<g id="node7" class="node">
+<title>Output1</title>
+<polygon fill="lightyellow" stroke="black" points="379.58,-684 296.77,-666 379.58,-648 462.39,-666 379.58,-684"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-663" font-family="Times,serif" font-size="10.00">练习: 小Demo(计算器)</text>
+</g>
+<!-- S1&#45;&gt;Output1 -->
+<g id="edge6" class="edge">
+<title>S1-&gt;Output1</title>
+<path fill="none" stroke="orange" d="M260.19,-679.45C276.48,-677.6 294.91,-675.51 312.3,-673.53"/>
+<polygon fill="orange" stroke="orange" points="312.49,-677.03 322.04,-672.43 311.7,-670.08 312.49,-677.03"/>
+</g>
+<!-- VarLoop -->
+<g id="node4" class="node">
+<title>VarLoop</title>
+<ellipse fill="lightblue" stroke="black" cx="635.21" cy="-774" rx="31.33" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="635.21" y="-771" font-family="Times,serif" font-size="10.00">VarLoop</text>
+</g>
+<!-- Syntax&#45;&gt;VarLoop -->
+<g id="edge3" class="edge">
+<title>Syntax-&gt;VarLoop</title>
+<path fill="none" stroke="black" d="M407.72,-774C452.04,-774 540.22,-774 592.52,-774"/>
+<polygon fill="palegreen" stroke="black" points="592.22,-777.5 602.22,-774 592.22,-770.5 592.22,-777.5"/>
+<text xml:space="preserve" text-anchor="middle" x="527.62" y="-778.2" font-family="Times,serif" font-size="14.00">变量/循环/函数</text>
+</g>
+<!-- PtrCompile -->
+<g id="node6" class="node">
+<title>PtrCompile</title>
+<ellipse fill="lightblue" stroke="black" cx="635.21" cy="-720" rx="37.35" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="635.21" y="-717" font-family="Times,serif" font-size="10.00">PtrCompile</text>
+</g>
+<!-- Pointer&#45;&gt;PtrCompile -->
+<g id="edge5" class="edge">
+<title>Pointer-&gt;PtrCompile</title>
+<path fill="none" stroke="black" d="M407.72,-720C450.25,-720 533.2,-720 586.04,-720"/>
+<polygon fill="palegreen" stroke="black" points="585.97,-723.5 595.97,-720 585.97,-716.5 585.97,-723.5"/>
+<text xml:space="preserve" text-anchor="middle" x="527.62" y="-724.2" font-family="Times,serif" font-size="14.00">指针/编译</text>
+</g>
+<!-- OOP -->
+<g id="node9" class="node">
+<title>OOP</title>
+<ellipse fill="lightblue" stroke="black" cx="379.58" cy="-612" rx="32.17" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-609" font-family="Times,serif" font-size="10.00">OOP 基础</text>
+</g>
+<!-- S2&#45;&gt;OOP -->
+<g id="edge8" class="edge">
+<title>S2-&gt;OOP</title>
+<path fill="none" stroke="orange" d="M233.02,-542.27C249.61,-555.56 273.53,-573.21 296.77,-585 310.03,-591.73 325.33,-597.3 339.08,-601.61"/>
+<polygon fill="orange" stroke="orange" points="337.68,-604.84 348.26,-604.35 339.68,-598.13 337.68,-604.84"/>
+</g>
+<!-- Inherit -->
+<g id="node11" class="node">
+<title>Inherit</title>
+<ellipse fill="lightblue" stroke="black" cx="379.58" cy="-558" rx="29.33" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-555" font-family="Times,serif" font-size="10.00">继承/多态</text>
+</g>
+<!-- S2&#45;&gt;Inherit -->
+<g id="edge10" class="edge">
+<title>S2-&gt;Inherit</title>
+<path fill="none" stroke="orange" d="M260.19,-533.93C285.7,-539.11 316.48,-545.37 340.25,-550.21"/>
+<polygon fill="orange" stroke="orange" points="339.33,-553.59 349.83,-552.15 340.72,-546.73 339.33,-553.59"/>
+</g>
+<!-- Output2 -->
+<g id="node13" class="node">
+<title>Output2</title>
+<polygon fill="lightcoral" stroke="black" points="379.58,-522 323.21,-504 379.58,-486 435.94,-504 379.58,-522"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-501" font-family="Times,serif" font-size="10.00">项目: 学生系统</text>
+</g>
+<!-- S2&#45;&gt;Output2 -->
+<g id="edge12" class="edge">
+<title>S2-&gt;Output2</title>
+<path fill="none" stroke="orange" d="M260.19,-518.16C280.85,-515.69 304.95,-512.81 326,-510.29"/>
+<polygon fill="orange" stroke="orange" points="326.32,-513.78 335.84,-509.11 325.49,-506.83 326.32,-513.78"/>
+</g>
+<!-- ClassConst -->
+<g id="node10" class="node">
+<title>ClassConst</title>
+<ellipse fill="lightblue" stroke="black" cx="635.21" cy="-612" rx="36.69" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="635.21" y="-609" font-family="Times,serif" font-size="10.00">ClassConst</text>
+</g>
+<!-- OOP&#45;&gt;ClassConst -->
+<g id="edge9" class="edge">
+<title>OOP-&gt;ClassConst</title>
+<path fill="none" stroke="black" d="M412.19,-612C456.05,-612 535.71,-612 586.73,-612"/>
+<polygon fill="lightyellow" stroke="black" points="586.59,-615.5 596.59,-612 586.59,-608.5 586.59,-615.5"/>
+<text xml:space="preserve" text-anchor="middle" x="527.62" y="-616.2" font-family="Times,serif" font-size="14.00">类/构造</text>
+</g>
+<!-- VirtCopy -->
+<g id="node12" class="node">
+<title>VirtCopy</title>
+<ellipse fill="lightblue" stroke="black" cx="635.21" cy="-558" rx="32.34" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="635.21" y="-555" font-family="Times,serif" font-size="10.00">VirtCopy</text>
+</g>
+<!-- Inherit&#45;&gt;VirtCopy -->
+<g id="edge11" class="edge">
+<title>Inherit-&gt;VirtCopy</title>
+<path fill="none" stroke="black" d="M409.18,-558C453.53,-558 539.17,-558 591.06,-558"/>
+<polygon fill="lightyellow" stroke="black" points="591.03,-561.5 601.03,-558 591.03,-554.5 591.03,-561.5"/>
+<text xml:space="preserve" text-anchor="middle" x="527.62" y="-562.2" font-family="Times,serif" font-size="14.00">虚函数/拷贝</text>
+</g>
+<!-- STL -->
+<g id="node15" class="node">
+<title>STL</title>
+<ellipse fill="lightblue" stroke="black" cx="379.58" cy="-450" rx="30.84" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-447" font-family="Times,serif" font-size="10.00">STL 容器</text>
+</g>
+<!-- S3&#45;&gt;STL -->
+<g id="edge14" class="edge">
+<title>S3-&gt;STL</title>
+<path fill="none" stroke="pink" d="M260.19,-411.76C286.15,-420.15 317.56,-430.29 341.5,-438.03"/>
+<polygon fill="pink" stroke="pink" points="340.23,-441.29 350.82,-441.04 342.38,-434.63 340.23,-441.29"/>
+</g>
+<!-- Algo -->
+<g id="node17" class="node">
+<title>Algo</title>
+<ellipse fill="lightblue" stroke="black" cx="379.58" cy="-396" rx="33.84" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-393" font-family="Times,serif" font-size="10.00">算法/迭代器</text>
+</g>
+<!-- S3&#45;&gt;Algo -->
+<g id="edge16" class="edge">
+<title>S3-&gt;Algo</title>
+<path fill="none" stroke="pink" d="M260.19,-396C283.5,-396 311.2,-396 333.95,-396"/>
+<polygon fill="pink" stroke="pink" points="333.83,-399.5 343.83,-396 333.83,-392.5 333.83,-399.5"/>
+</g>
+<!-- Output3 -->
+<g id="node19" class="node">
+<title>Output3</title>
+<polygon fill="lavender" stroke="black" points="379.58,-360 323.21,-342 379.58,-324 435.94,-342 379.58,-360"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-339" font-family="Times,serif" font-size="10.00">项目: 词频工具</text>
+</g>
+<!-- S3&#45;&gt;Output3 -->
+<g id="edge18" class="edge">
+<title>S3-&gt;Output3</title>
+<path fill="none" stroke="pink" d="M260.19,-380.24C285.49,-372.07 315.95,-362.23 339.65,-354.57"/>
+<polygon fill="pink" stroke="pink" points="340.46,-357.99 348.9,-351.58 338.31,-351.33 340.46,-357.99"/>
+</g>
+<!-- VecMap -->
+<g id="node16" class="node">
+<title>VecMap</title>
+<ellipse fill="lightblue" stroke="black" cx="635.21" cy="-450" rx="30.32" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="635.21" y="-447" font-family="Times,serif" font-size="10.00">VecMap</text>
+</g>
+<!-- STL&#45;&gt;VecMap -->
+<g id="edge15" class="edge">
+<title>STL-&gt;VecMap</title>
+<path fill="none" stroke="black" d="M410.67,-450C456.08,-450 542.22,-450 593.29,-450"/>
+<polygon fill="pink" stroke="black" points="593.04,-453.5 603.04,-450 593.04,-446.5 593.04,-453.5"/>
+<text xml:space="preserve" text-anchor="middle" x="527.62" y="-454.2" font-family="Times,serif" font-size="14.00">vector/map</text>
+</g>
+<!-- SortLambda -->
+<g id="node18" class="node">
+<title>SortLambda</title>
+<ellipse fill="lightblue" stroke="black" cx="635.21" cy="-396" rx="39.35" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="635.21" y="-393" font-family="Times,serif" font-size="10.00">SortLambda</text>
+</g>
+<!-- Algo&#45;&gt;SortLambda -->
+<g id="edge17" class="edge">
+<title>Algo-&gt;SortLambda</title>
+<path fill="none" stroke="black" d="M413.74,-396C457.21,-396 533.87,-396 584.36,-396"/>
+<polygon fill="pink" stroke="black" points="584.14,-399.5 594.14,-396 584.14,-392.5 584.14,-399.5"/>
+<text xml:space="preserve" text-anchor="middle" x="527.62" y="-400.2" font-family="Times,serif" font-size="14.00">sort/Lambda</text>
+</g>
+<!-- Mem -->
+<g id="node21" class="node">
+<title>Mem</title>
+<ellipse fill="lightblue" stroke="black" cx="379.58" cy="-288" rx="27.66" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-285" font-family="Times,serif" font-size="10.00">内存管理</text>
+</g>
+<!-- S4&#45;&gt;Mem -->
+<g id="edge20" class="edge">
+<title>S4-&gt;Mem</title>
+<path fill="none" stroke="red" d="M260.19,-263.93C286.2,-269.21 317.68,-275.62 341.63,-280.49"/>
+<polygon fill="red" stroke="red" points="340.75,-283.88 351.25,-282.44 342.15,-277.02 340.75,-283.88"/>
+</g>
+<!-- Thread -->
+<g id="node23" class="node">
+<title>Thread</title>
+<ellipse fill="lightblue" stroke="black" cx="379.58" cy="-234" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-231" font-family="Times,serif" font-size="10.00">多线程</text>
+</g>
+<!-- S4&#45;&gt;Thread -->
+<g id="edge22" class="edge">
+<title>S4-&gt;Thread</title>
+<path fill="none" stroke="red" d="M260.19,-248.16C286.08,-245.06 317.39,-241.32 341.31,-238.46"/>
+<polygon fill="red" stroke="red" points="341.72,-241.93 351.23,-237.27 340.89,-234.98 341.72,-241.93"/>
+</g>
+<!-- Output4 -->
+<g id="node25" class="node">
+<title>Output4</title>
+<polygon fill="khaki" stroke="black" points="379.58,-198 308.33,-180 379.58,-162 450.82,-180 379.58,-198"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-177" font-family="Times,serif" font-size="10.00">项目: HTTP服务器</text>
+</g>
+<!-- S4&#45;&gt;Output4 -->
+<g id="edge24" class="edge">
+<title>S4-&gt;Output4</title>
+<path fill="none" stroke="red" d="M241.52,-235.63C257.56,-226.31 277.84,-215.25 296.77,-207 308.52,-201.88 321.58,-197.16 333.75,-193.14"/>
+<polygon fill="red" stroke="red" points="334.72,-196.51 343.18,-190.13 332.59,-189.84 334.72,-196.51"/>
+</g>
+<!-- SmartPtr -->
+<g id="node22" class="node">
+<title>SmartPtr</title>
+<ellipse fill="lightblue" stroke="black" cx="635.21" cy="-288" rx="31" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="635.21" y="-285" font-family="Times,serif" font-size="10.00">SmartPtr</text>
+</g>
+<!-- Mem&#45;&gt;SmartPtr -->
+<g id="edge21" class="edge">
+<title>Mem-&gt;SmartPtr</title>
+<path fill="none" stroke="black" d="M407.72,-288C452.04,-288 540.22,-288 592.52,-288"/>
+<polygon fill="lightcoral" stroke="black" points="592.22,-291.5 602.22,-288 592.22,-284.5 592.22,-291.5"/>
+<text xml:space="preserve" text-anchor="middle" x="527.62" y="-292.2" font-family="Times,serif" font-size="14.00">智能指针</text>
+</g>
+<!-- MutexThread -->
+<g id="node24" class="node">
+<title>MutexThread</title>
+<ellipse fill="lightblue" stroke="black" cx="635.21" cy="-234" rx="42.35" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="635.21" y="-231" font-family="Times,serif" font-size="10.00">MutexThread</text>
+</g>
+<!-- Thread&#45;&gt;MutexThread -->
+<g id="edge23" class="edge">
+<title>Thread-&gt;MutexThread</title>
+<path fill="none" stroke="black" d="M406.76,-234C447.8,-234 528.07,-234 581.42,-234"/>
+<polygon fill="lightcoral" stroke="black" points="581.2,-237.5 591.2,-234 581.2,-230.5 581.2,-237.5"/>
+<text xml:space="preserve" text-anchor="middle" x="527.62" y="-238.2" font-family="Times,serif" font-size="14.00">mutex/thread</text>
+</g>
+<!-- Review -->
+<g id="node27" class="node">
+<title>Review</title>
+<ellipse fill="lightblue" stroke="black" cx="379.58" cy="-126" rx="27.66" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-123" font-family="Times,serif" font-size="10.00">知识复盘</text>
+</g>
+<!-- S5&#45;&gt;Review -->
+<g id="edge26" class="edge">
+<title>S5-&gt;Review</title>
+<path fill="none" stroke="purple" d="M260.19,-111.84C285.92,-114.92 316.99,-118.63 340.85,-121.49"/>
+<polygon fill="purple" stroke="purple" points="340.42,-124.96 350.76,-122.67 341.25,-118.01 340.42,-124.96"/>
+</g>
+<!-- Brush -->
+<g id="node29" class="node">
+<title>Brush</title>
+<ellipse fill="lightblue" stroke="black" cx="379.58" cy="-72" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-69" font-family="Times,serif" font-size="10.00">刷题</text>
+</g>
+<!-- S5&#45;&gt;Brush -->
+<g id="edge28" class="edge">
+<title>S5-&gt;Brush</title>
+<path fill="none" stroke="purple" d="M260.19,-96.07C286.37,-90.75 318.08,-84.3 342.09,-79.42"/>
+<polygon fill="purple" stroke="purple" points="342.62,-82.88 351.72,-77.46 341.22,-76.02 342.62,-82.88"/>
+</g>
+<!-- Output5 -->
+<g id="node31" class="node">
+<title>Output5</title>
+<polygon fill="plum" stroke="black" points="379.58,-36 323.21,-18 379.58,0 435.94,-18 379.58,-36"/>
+<text xml:space="preserve" text-anchor="middle" x="379.58" y="-15" font-family="Times,serif" font-size="10.00">总结: 面试笔记</text>
+</g>
+<!-- S5&#45;&gt;Output5 -->
+<g id="edge30" class="edge">
+<title>S5-&gt;Output5</title>
+<path fill="none" stroke="purple" d="M233.02,-87.73C249.61,-74.44 273.53,-56.79 296.77,-45 309.04,-38.77 323.07,-33.53 335.99,-29.37"/>
+<polygon fill="purple" stroke="purple" points="337.02,-32.72 345.55,-26.45 334.97,-26.03 337.02,-32.72"/>
+</g>
+<!-- OOPSTL -->
+<g id="node28" class="node">
+<title>OOPSTL</title>
+<ellipse fill="lightblue" stroke="black" cx="635.21" cy="-126" rx="32.34" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="635.21" y="-123" font-family="Times,serif" font-size="10.00">OOPSTL</text>
+</g>
+<!-- Review&#45;&gt;OOPSTL -->
+<g id="edge27" class="edge">
+<title>Review-&gt;OOPSTL</title>
+<path fill="none" stroke="black" d="M407.72,-126C451.68,-126 538.8,-126 591.25,-126"/>
+<polygon fill="lavender" stroke="black" points="591.01,-129.5 601.01,-126 591.01,-122.5 591.01,-129.5"/>
+<text xml:space="preserve" text-anchor="middle" x="527.62" y="-130.2" font-family="Times,serif" font-size="14.00">OOP/STL</text>
+</g>
+<!-- LeetCode -->
+<g id="node30" class="node">
+<title>LeetCode</title>
+<ellipse fill="lightblue" stroke="black" cx="635.21" cy="-72" rx="33" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="635.21" y="-69" font-family="Times,serif" font-size="10.00">LeetCode</text>
+</g>
+<!-- Brush&#45;&gt;LeetCode -->
+<g id="edge29" class="edge">
+<title>Brush-&gt;LeetCode</title>
+<path fill="none" stroke="black" d="M406.76,-72C450.18,-72 537.53,-72 590.44,-72"/>
+<polygon fill="lavender" stroke="black" points="590.31,-75.5 600.31,-72 590.31,-68.5 590.31,-75.5"/>
+<text xml:space="preserve" text-anchor="middle" x="527.62" y="-76.2" font-family="Times,serif" font-size="14.00">LeetCode Top50</text>
+</g>
+</g>
+</svg>
