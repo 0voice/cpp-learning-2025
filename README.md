@@ -3,6 +3,7 @@
 
 💡 涵盖从基础知识到实战项目的资料与示例，帮助你快速入门并逐步进阶！
 
+[English README](https://github.com/0voice/awesome-modern-cpp-2025/edit/main/README.en.md)
 ## 适用人群
 - 零基础编程小白
 - 在校计算机相关专业学生
