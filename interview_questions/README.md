@@ -1,5 +1,5 @@
 # C++高频面试题
-
+[English](https://github.com/0voice/awesome-modern-cpp-2025/blob/main/interview_questions/README.en.md)
 ## 目录
 [语言基础](#语言基础)  
 [面向对象](#面向对象)  
