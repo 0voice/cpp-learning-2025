@@ -400,7 +400,6 @@
 - [模板实例化发生在什么时候](interview_questions/README.md#模板实例化发生在什么时候)
 - [函数模板和类模板的区别](interview_questions/README.md#函数模板和类模板的区别)
 - [SFINAE 和 std::enable_if](interview_questions/README.md#sfinae-和-stdenable_if)
-- [常见设计模式（单例、工厂、观察者、策略）](interview_questions/README.md#常见设计模式单例工厂观察者策略)
 - [手撕线程安全单例](interview_questions/README.md#手撕线程安全单例)
 - [手撕简易 shared_ptr](interview_questions/README.md#手撕简易-shared_ptr)
 - [手撕 LRU Cache](interview_questions/README.md#手撕-lru-cache)
