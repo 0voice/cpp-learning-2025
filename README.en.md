@@ -42,7 +42,7 @@ Relevant discussions:
        style="max-height: 900px;">
 </details>
 
-### Stage 0 (0.5–1 day)
+### Stage 0: Preparation (0.5–1 day)
 **Goal**: Set up environment, compile and run your first C++ program  
 - Windows (MinGW + VS Code) / macOS (Xcode Command Line Tools) / Linux (GCC/Clang)
 
