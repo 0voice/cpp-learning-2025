@@ -1,6 +1,7 @@
 # C++ From Zero to Job-Ready: 2025 Complete Learning Roadmap
 🌟 A one-stop navigation repository for anyone learning modern C++.  
-💡 From absolute beginner to building real projects and passing technical interviews.
+💡 From absolute beginner to building real projects and passing technical interviews.  
+[中文版README](https://github.com/0voice/awesome-modern-cpp-2025/blob/main/README.md)
 
 **Target Audience**
 - Complete programming beginners
