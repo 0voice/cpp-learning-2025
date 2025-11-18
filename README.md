@@ -33,16 +33,8 @@
 - [面试题](#面试题)
 
 ## 学习路线
-
-<details open>
-  <summary>点击收起 / 展开 C++ 学习路线图</strong></summary>
-  <br>
   
-  <img src="https://raw.githubusercontent.com/0voice/awesome-modern-cpp-2025/main/roadmap/cpp-roadmap.svg" 
-       width="100%" 
-       style="max-height: 900px;">
-       
-</details>
+  <img src="https://raw.githubusercontent.com/0voice/awesome-modern-cpp-2025/main/roadmap/cpp-roadmap.svg">        
 
 ### 阶段 0：准备工作（0.5-1天）
 - **核心目标**：完成环境搭建，能编译运行第一个 C++ 程序，上手基础工具
