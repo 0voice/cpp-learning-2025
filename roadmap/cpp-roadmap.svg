@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1810pt" height="593pt" viewBox="0.00 0.00 1810.00 593.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 588.8)">
+<title>CPlusPlus_Roadmap_2025</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-588.8 1806,-588.8 1806,4 -4,4"/>
+<text xml:space="preserve" text-anchor="start" x="724.85" y="-551.2" font-family="Times,serif" font-weight="bold" font-size="34.00" fill="#1565c0">C++ 2025 保姆级学习路线图</text>
+<!-- Stage0 -->
+<g id="node1" class="node">
+<title>Stage0</title>
+<path fill="#e8f5e8" stroke="#2e7d32" stroke-width="4" d="M240.2,-536C240.2,-536 69.8,-536 69.8,-536 63.8,-536 57.8,-530 57.8,-524 57.8,-524 57.8,-447.2 57.8,-447.2 57.8,-441.2 63.8,-435.2 69.8,-435.2 69.8,-435.2 240.2,-435.2 240.2,-435.2 246.2,-435.2 252.2,-441.2 252.2,-447.2 252.2,-447.2 252.2,-524 252.2,-524 252.2,-530 246.2,-536 240.2,-536"/>
+<text xml:space="preserve" text-anchor="middle" x="155" y="-502.7" font-family="Microsoft YaHei" font-size="19.00">阶段 0</text>
+<text xml:space="preserve" text-anchor="middle" x="155" y="-479.9" font-family="Microsoft YaHei" font-size="19.00">环境搭建</text>
+<text xml:space="preserve" text-anchor="middle" x="155" y="-457.1" font-family="Microsoft YaHei" font-size="19.00">0.5–1 天</text>
+</g>
+<!-- Stage1 -->
+<g id="node2" class="node">
+<title>Stage1</title>
+<path fill="#e3f2fd" stroke="#1565c0" stroke-width="4" d="M521.2,-536C521.2,-536 350.8,-536 350.8,-536 344.8,-536 338.8,-530 338.8,-524 338.8,-524 338.8,-447.2 338.8,-447.2 338.8,-441.2 344.8,-435.2 350.8,-435.2 350.8,-435.2 521.2,-435.2 521.2,-435.2 527.2,-435.2 533.2,-441.2 533.2,-447.2 533.2,-447.2 533.2,-524 533.2,-524 533.2,-530 527.2,-536 521.2,-536"/>
+<text xml:space="preserve" text-anchor="middle" x="436" y="-502.7" font-family="Microsoft YaHei" font-size="19.00">阶段 1</text>
+<text xml:space="preserve" text-anchor="middle" x="436" y="-479.9" font-family="Microsoft YaHei" font-size="19.00">基础语法</text>
+<text xml:space="preserve" text-anchor="middle" x="436" y="-457.1" font-family="Microsoft YaHei" font-size="19.00">2–3 周</text>
+</g>
+<!-- Stage0&#45;&gt;Stage1 -->
+<g id="edge1" class="edge">
+<title>Stage0-&gt;Stage1</title>
+<path fill="none" stroke="#1976d2" stroke-width="14" d="M254.06,-485.6C281.66,-485.6 309.26,-485.6 336.86,-485.6"/>
+</g>
+<!-- S0 -->
+<g id="node7" class="node">
+<title>S0</title>
+<path fill="#c8e6c9" stroke="black" stroke-width="3" d="M240,-320C240,-320 12,-320 12,-320 6,-320 0,-314 0,-308 0,-308 0,-231.2 0,-231.2 0,-225.2 6,-219.2 12,-219.2 12,-219.2 240,-219.2 240,-219.2 246,-219.2 252,-225.2 252,-231.2 252,-231.2 252,-308 252,-308 252,-314 246,-320 240,-320"/>
+<text xml:space="preserve" text-anchor="middle" x="126" y="-286.7" font-family="Microsoft YaHei" font-size="19.00">• 安装编译器 + VSCode</text>
+<text xml:space="preserve" text-anchor="middle" x="126" y="-263.9" font-family="Microsoft YaHei" font-size="19.00">• Git + GitHub</text>
+<text xml:space="preserve" text-anchor="middle" x="126" y="-241.1" font-family="Microsoft YaHei" font-size="19.00">• CMake + Hello World</text>
+</g>
+<!-- Stage0&#45;&gt;S0 -->
+<g id="edge6" class="edge">
+<title>Stage0-&gt;S0</title>
+<path fill="none" stroke="#2e7d32" stroke-width="5" d="M148.05,-433.34C144.36,-406.08 139.76,-372.12 135.71,-342.28"/>
+<polygon fill="#2e7d32" stroke="#2e7d32" stroke-width="5" points="142.24,-341.6 133.73,-327.62 129.24,-343.37 142.24,-341.6"/>
+</g>
+<!-- Stage2 -->
+<g id="node3" class="node">
+<title>Stage2</title>
+<path fill="#fff3e0" stroke="#ef6c00" stroke-width="4" d="M831.2,-536C831.2,-536 660.8,-536 660.8,-536 654.8,-536 648.8,-530 648.8,-524 648.8,-524 648.8,-447.2 648.8,-447.2 648.8,-441.2 654.8,-435.2 660.8,-435.2 660.8,-435.2 831.2,-435.2 831.2,-435.2 837.2,-435.2 843.2,-441.2 843.2,-447.2 843.2,-447.2 843.2,-524 843.2,-524 843.2,-530 837.2,-536 831.2,-536"/>
+<text xml:space="preserve" text-anchor="middle" x="746" y="-502.7" font-family="Microsoft YaHei" font-size="19.00">阶段 2</text>
+<text xml:space="preserve" text-anchor="middle" x="746" y="-479.9" font-family="Microsoft YaHei" font-size="19.00">OOP核心</text>
+<text xml:space="preserve" text-anchor="middle" x="746" y="-457.1" font-family="Microsoft YaHei" font-size="19.00">3–4 周</text>
+</g>
+<!-- Stage1&#45;&gt;Stage2 -->
+<g id="edge2" class="edge">
+<title>Stage1-&gt;Stage2</title>
+<path fill="none" stroke="#1976d2" stroke-width="14" d="M534.99,-485.6C572.36,-485.6 609.73,-485.6 647.09,-485.6"/>
+</g>
+<!-- S1 -->
+<g id="node8" class="node">
+<title>S1</title>
+<path fill="#bbdefb" stroke="black" stroke-width="3" d="M550,-320C550,-320 322,-320 322,-320 316,-320 310,-314 310,-308 310,-308 310,-231.2 310,-231.2 310,-225.2 316,-219.2 322,-219.2 322,-219.2 550,-219.2 550,-219.2 556,-219.2 562,-225.2 562,-231.2 562,-231.2 562,-308 562,-308 562,-314 556,-320 550,-320"/>
+<text xml:space="preserve" text-anchor="middle" x="436" y="-275.3" font-family="Microsoft YaHei" font-size="19.00">指针 &amp; 引用</text>
+<text xml:space="preserve" text-anchor="middle" x="436" y="-252.5" font-family="Microsoft YaHei" font-size="19.00">编译链接原理 + CMake多文件</text>
+</g>
+<!-- Stage1&#45;&gt;S1 -->
+<g id="edge7" class="edge">
+<title>Stage1-&gt;S1</title>
+<path fill="none" stroke="#1565c0" stroke-width="5" d="M436,-433.34C436,-406.08 436,-372.12 436,-342.28"/>
+<polygon fill="#1565c0" stroke="#1565c0" stroke-width="5" points="442.56,-342.68 436,-327.68 429.44,-342.68 442.56,-342.68"/>
+</g>
+<!-- Stage3 -->
+<g id="node4" class="node">
+<title>Stage3</title>
+<path fill="#f3e5f5" stroke="#7b1fa2" stroke-width="4" d="M1141.2,-536C1141.2,-536 970.8,-536 970.8,-536 964.8,-536 958.8,-530 958.8,-524 958.8,-524 958.8,-447.2 958.8,-447.2 958.8,-441.2 964.8,-435.2 970.8,-435.2 970.8,-435.2 1141.2,-435.2 1141.2,-435.2 1147.2,-435.2 1153.2,-441.2 1153.2,-447.2 1153.2,-447.2 1153.2,-524 1153.2,-524 1153.2,-530 1147.2,-536 1141.2,-536"/>
+<text xml:space="preserve" text-anchor="middle" x="1056" y="-502.7" font-family="Microsoft YaHei" font-size="19.00">阶段 3</text>
+<text xml:space="preserve" text-anchor="middle" x="1056" y="-479.9" font-family="Microsoft YaHei" font-size="19.00">STL+现代C++</text>
+<text xml:space="preserve" text-anchor="middle" x="1056" y="-457.1" font-family="Microsoft YaHei" font-size="19.00">2–3 周</text>
+</g>
+<!-- Stage2&#45;&gt;Stage3 -->
+<g id="edge3" class="edge">
+<title>Stage2-&gt;Stage3</title>
+<path fill="none" stroke="#1976d2" stroke-width="14" d="M844.99,-485.6C882.36,-485.6 919.73,-485.6 957.09,-485.6"/>
+</g>
+<!-- S2 -->
+<g id="node10" class="node">
+<title>S2</title>
+<path fill="#ffe0b2" stroke="black" stroke-width="3" d="M860,-320C860,-320 632,-320 632,-320 626,-320 620,-314 620,-308 620,-308 620,-231.2 620,-231.2 620,-225.2 626,-219.2 632,-219.2 632,-219.2 860,-219.2 860,-219.2 866,-219.2 872,-225.2 872,-231.2 872,-231.2 872,-308 872,-308 872,-314 866,-320 860,-320"/>
+<text xml:space="preserve" text-anchor="middle" x="746" y="-275.3" font-family="Microsoft YaHei" font-size="19.00">深浅拷贝</text>
+<text xml:space="preserve" text-anchor="middle" x="746" y="-252.5" font-family="Microsoft YaHei" font-size="19.00">五大规则 + 虚函数表</text>
+</g>
+<!-- Stage2&#45;&gt;S2 -->
+<g id="edge9" class="edge">
+<title>Stage2-&gt;S2</title>
+<path fill="none" stroke="#ef6c00" stroke-width="5" d="M746,-433.34C746,-406.08 746,-372.12 746,-342.28"/>
+<polygon fill="#ef6c00" stroke="#ef6c00" stroke-width="5" points="752.56,-342.68 746,-327.68 739.44,-342.68 752.56,-342.68"/>
+</g>
+<!-- Stage4 -->
+<g id="node5" class="node">
+<title>Stage4</title>
+<path fill="#ffebee" stroke="#000000" stroke-width="4" d="M1472.8,-536C1472.8,-536 1259.2,-536 1259.2,-536 1253.2,-536 1247.2,-530 1247.2,-524 1247.2,-524 1247.2,-447.2 1247.2,-447.2 1247.2,-441.2 1253.2,-435.2 1259.2,-435.2 1259.2,-435.2 1472.8,-435.2 1472.8,-435.2 1478.8,-435.2 1484.8,-441.2 1484.8,-447.2 1484.8,-447.2 1484.8,-524 1484.8,-524 1484.8,-530 1478.8,-536 1472.8,-536"/>
+<text xml:space="preserve" text-anchor="middle" x="1366" y="-507.2" font-family="Microsoft YaHei" font-size="24.00">阶段 4</text>
+<text xml:space="preserve" text-anchor="middle" x="1366" y="-478.4" font-family="Microsoft YaHei" font-size="24.00">重磅实战项目</text>
+<text xml:space="preserve" text-anchor="middle" x="1366" y="-449.6" font-family="Microsoft YaHei" font-size="24.00">4–6 周</text>
+</g>
+<!-- Stage3&#45;&gt;Stage4 -->
+<g id="edge4" class="edge">
+<title>Stage3-&gt;Stage4</title>
+<path fill="none" stroke="#1976d2" stroke-width="14" d="M1154.99,-485.6C1185.08,-485.6 1215.16,-485.6 1245.25,-485.6"/>
+</g>
+<!-- S3 -->
+<g id="node12" class="node">
+<title>S3</title>
+<path fill="#e1bee7" stroke="black" stroke-width="3" d="M1170,-320C1170,-320 942,-320 942,-320 936,-320 930,-314 930,-308 930,-308 930,-231.2 930,-231.2 930,-225.2 936,-219.2 942,-219.2 942,-219.2 1170,-219.2 1170,-219.2 1176,-219.2 1182,-225.2 1182,-231.2 1182,-231.2 1182,-308 1182,-308 1182,-314 1176,-320 1170,-320"/>
+<text xml:space="preserve" text-anchor="middle" x="1056" y="-275.3" font-family="Microsoft YaHei" font-size="19.00">所有容器 + 算法</text>
+<text xml:space="preserve" text-anchor="middle" x="1056" y="-252.5" font-family="Microsoft YaHei" font-size="19.00">Lambda + auto + 文件IO</text>
+</g>
+<!-- Stage3&#45;&gt;S3 -->
+<g id="edge11" class="edge">
+<title>Stage3-&gt;S3</title>
+<path fill="none" stroke="#7b1fa2" stroke-width="5" d="M1056,-433.34C1056,-406.08 1056,-372.12 1056,-342.28"/>
+<polygon fill="#7b1fa2" stroke="#7b1fa2" stroke-width="5" points="1062.56,-342.68 1056,-327.68 1049.44,-342.68 1062.56,-342.68"/>
+</g>
+<!-- Stage5 -->
+<g id="node6" class="node">
+<title>Stage5</title>
+<path fill="#fffde7" stroke="#f9a825" stroke-width="4" d="M1743.2,-536C1743.2,-536 1572.8,-536 1572.8,-536 1566.8,-536 1560.8,-530 1560.8,-524 1560.8,-524 1560.8,-447.2 1560.8,-447.2 1560.8,-441.2 1566.8,-435.2 1572.8,-435.2 1572.8,-435.2 1743.2,-435.2 1743.2,-435.2 1749.2,-435.2 1755.2,-441.2 1755.2,-447.2 1755.2,-447.2 1755.2,-524 1755.2,-524 1755.2,-530 1749.2,-536 1743.2,-536"/>
+<text xml:space="preserve" text-anchor="middle" x="1658" y="-502.7" font-family="Microsoft YaHei" font-size="19.00">阶段 5</text>
+<text xml:space="preserve" text-anchor="middle" x="1658" y="-479.9" font-family="Microsoft YaHei" font-size="19.00">面试冲刺</text>
+<text xml:space="preserve" text-anchor="middle" x="1658" y="-457.1" font-family="Microsoft YaHei" font-size="19.00">2–3 周</text>
+</g>
+<!-- Stage4&#45;&gt;Stage5 -->
+<g id="edge5" class="edge">
+<title>Stage4-&gt;Stage5</title>
+<path fill="none" stroke="#1976d2" stroke-width="14" d="M1486.62,-485.6C1510.72,-485.6 1534.82,-485.6 1558.92,-485.6"/>
+</g>
+<!-- S4 -->
+<g id="node14" class="node">
+<title>S4</title>
+<path fill="#ffcdd2" stroke="black" stroke-width="5" d="M1480,-327.2C1480,-327.2 1252,-327.2 1252,-327.2 1246,-327.2 1240,-321.2 1240,-315.2 1240,-315.2 1240,-224 1240,-224 1240,-218 1246,-212 1252,-212 1252,-212 1480,-212 1480,-212 1486,-212 1492,-218 1492,-224 1492,-224 1492,-315.2 1492,-315.2 1492,-321.2 1486,-327.2 1480,-327.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1366" y="-275.3" font-family="Microsoft YaHei" font-size="19.00">智能指针全家桶 + 线程池</text>
+<text xml:space="preserve" text-anchor="middle" x="1366" y="-252.5" font-family="Microsoft YaHei" font-size="19.00">epoll + Socket + 设计模式</text>
+</g>
+<!-- Stage4&#45;&gt;S4 -->
+<g id="edge13" class="edge">
+<title>Stage4-&gt;S4</title>
+<path fill="none" stroke="#c62828" stroke-width="8" d="M1366,-433.34C1366,-408.78 1366,-378.78 1366,-351.26"/>
+<polygon fill="#c62828" stroke="#c62828" stroke-width="8" points="1376.5,-351.36 1366,-336.36 1355.5,-351.36 1376.5,-351.36"/>
+</g>
+<!-- S5 -->
+<g id="node16" class="node">
+<title>S5</title>
+<path fill="#fff9c4" stroke="black" stroke-width="3" d="M1790,-320C1790,-320 1562,-320 1562,-320 1556,-320 1550,-314 1550,-308 1550,-308 1550,-231.2 1550,-231.2 1550,-225.2 1556,-219.2 1562,-219.2 1562,-219.2 1790,-219.2 1790,-219.2 1796,-219.2 1802,-225.2 1802,-231.2 1802,-231.2 1802,-308 1802,-308 1802,-314 1796,-320 1790,-320"/>
+<text xml:space="preserve" text-anchor="middle" x="1676" y="-275.3" font-family="Microsoft YaHei" font-size="19.00">150+ 高频面试题 + 手撕代码</text>
+<text xml:space="preserve" text-anchor="middle" x="1676" y="-252.5" font-family="Microsoft YaHei" font-size="19.00">项目复盘 + 简历 + 表达训练</text>
+</g>
+<!-- Stage5&#45;&gt;S5 -->
+<g id="edge15" class="edge">
+<title>Stage5-&gt;S5</title>
+<path fill="none" stroke="#f9a825" stroke-width="5" d="M1662.31,-433.34C1664.6,-406.08 1667.46,-372.12 1669.97,-342.28"/>
+<polygon fill="#f9a825" stroke="#f9a825" stroke-width="5" points="1676.48,-343.15 1671.2,-327.66 1663.4,-342.05 1676.48,-343.15"/>
+</g>
+<!-- D1 -->
+<g id="node9" class="node">
+<title>D1</title>
+<path fill="#e3f2ff" stroke="black" stroke-width="4" d="M550,-102.4C550,-102.4 322,-102.4 322,-102.4 316,-102.4 310,-96.4 310,-90.4 310,-90.4 310,-13.6 310,-13.6 310,-7.6 316,-1.6 322,-1.6 322,-1.6 550,-1.6 550,-1.6 556,-1.6 562,-7.6 562,-13.6 562,-13.6 562,-90.4 562,-90.4 562,-96.4 556,-102.4 550,-102.4"/>
+<text xml:space="preserve" text-anchor="middle" x="436" y="-57.7" font-family="Microsoft YaHei" font-size="19.00">计算器 • 猜数字 • 通讯录</text>
+<text xml:space="preserve" text-anchor="middle" x="436" y="-34.9" font-family="Microsoft YaHei" font-size="19.00">全部上传GitHub</text>
+</g>
+<!-- S1&#45;&gt;D1 -->
+<g id="edge8" class="edge">
+<title>S1-&gt;D1</title>
+<path fill="none" stroke="#1565c0" stroke-width="5" d="M436,-217.78C436,-190.23 436,-155.71 436,-125.4"/>
+<polygon fill="#1565c0" stroke="#1565c0" stroke-width="5" points="442.56,-125.46 436,-110.46 429.44,-125.46 442.56,-125.46"/>
+</g>
+<!-- D2 -->
+<g id="node11" class="node">
+<title>D2</title>
+<path fill="#fff3e0" stroke="black" stroke-width="4" d="M860,-102.4C860,-102.4 632,-102.4 632,-102.4 626,-102.4 620,-96.4 620,-90.4 620,-90.4 620,-13.6 620,-13.6 620,-7.6 626,-1.6 632,-1.6 632,-1.6 860,-1.6 860,-1.6 866,-1.6 872,-7.6 872,-13.6 872,-13.6 872,-90.4 872,-90.4 872,-96.4 866,-102.4 860,-102.4"/>
+<text xml:space="preserve" text-anchor="middle" x="746" y="-46.3" font-family="Microsoft YaHei" font-size="19.00">学生/图书管理系统</text>
+</g>
+<!-- S2&#45;&gt;D2 -->
+<g id="edge10" class="edge">
+<title>S2-&gt;D2</title>
+<path fill="none" stroke="#ef6c00" stroke-width="5" d="M746,-217.78C746,-190.23 746,-155.71 746,-125.4"/>
+<polygon fill="#ef6c00" stroke="#ef6c00" stroke-width="5" points="752.56,-125.46 746,-110.46 739.44,-125.46 752.56,-125.46"/>
+</g>
+<!-- D3 -->
+<g id="node13" class="node">
+<title>D3</title>
+<path fill="#f3e5f5" stroke="black" stroke-width="4" d="M1170,-102.4C1170,-102.4 942,-102.4 942,-102.4 936,-102.4 930,-96.4 930,-90.4 930,-90.4 930,-13.6 930,-13.6 930,-7.6 936,-1.6 942,-1.6 942,-1.6 1170,-1.6 1170,-1.6 1176,-1.6 1182,-7.6 1182,-13.6 1182,-13.6 1182,-90.4 1182,-90.4 1182,-96.4 1176,-102.4 1170,-102.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1056" y="-57.7" font-family="Microsoft YaHei" font-size="19.00">高性能词频统计工具</text>
+<text xml:space="preserve" text-anchor="middle" x="1056" y="-34.9" font-family="Microsoft YaHei" font-size="19.00">或日志系统</text>
+</g>
+<!-- S3&#45;&gt;D3 -->
+<g id="edge12" class="edge">
+<title>S3-&gt;D3</title>
+<path fill="none" stroke="#7b1fa2" stroke-width="5" d="M1056,-217.78C1056,-190.23 1056,-155.71 1056,-125.4"/>
+<polygon fill="#7b1fa2" stroke="#7b1fa2" stroke-width="5" points="1062.56,-125.46 1056,-110.46 1049.44,-125.46 1062.56,-125.46"/>
+</g>
+<!-- D4 -->
+<g id="node15" class="node">
+<title>D4</title>
+<path fill="#ffebee" stroke="black" stroke-width="7" d="M1480,-104C1480,-104 1252,-104 1252,-104 1246,-104 1240,-98 1240,-92 1240,-92 1240,-12 1240,-12 1240,-6 1246,0 1252,0 1252,0 1480,0 1480,0 1486,0 1492,-6 1492,-12 1492,-12 1492,-92 1492,-92 1492,-98 1486,-104 1480,-104"/>
+<text xml:space="preserve" text-anchor="middle" x="1366" y="-82" font-family="Microsoft YaHei" font-size="20.00">重磅项目（任选其一）</text>
+<text xml:space="preserve" text-anchor="middle" x="1366" y="-58" font-family="Microsoft YaHei" font-size="20.00">① 高性能线程池</text>
+<text xml:space="preserve" text-anchor="middle" x="1366" y="-34" font-family="Microsoft YaHei" font-size="20.00">② 多线程HTTP服务器</text>
+<text xml:space="preserve" text-anchor="middle" x="1366" y="-10" font-family="Microsoft YaHei" font-size="20.00">③ 贪吃蛇/ECS小游戏</text>
+</g>
+<!-- S4&#45;&gt;D4 -->
+<g id="edge14" class="edge">
+<title>S4-&gt;D4</title>
+<path fill="none" stroke="#c62828" stroke-width="8" d="M1366,-209.69C1366,-184.88 1366,-155.68 1366,-129.26"/>
+<polygon fill="#c62828" stroke="#c62828" stroke-width="8" points="1376.5,-129.38 1366,-114.38 1355.5,-129.38 1376.5,-129.38"/>
+</g>
+</g>
+</svg>
