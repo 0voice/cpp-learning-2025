@@ -42,6 +42,8 @@
     - Windows：MinGW-w64 / MSVC + VS Code
     - Mac：Xcode Command Line Tools
     - Linux：GCC/Clang
+ 
+如果你还没完成这一步或遇到困难，请参考[C++ 环境搭建指南](https://github.com/0voice/awesome-modern-cpp-2025/blob/main/environment_setup/README.md)
 
 ### 阶段 1：入门基础（2-3 周）
 - **核心目标**：理解 C++ 基本语法规则与底层逻辑，实现“输入→处理→输出”规范逻辑，规避入门常见坑
