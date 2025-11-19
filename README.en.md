@@ -146,16 +146,20 @@ If you haven't completed this step or encounter any difficulties, please refer t
 | CppCon talks (latest standards & real-world usage) | https://www.youtube.com/c/CppCon |
 
 ### Physical Book
-| Book Title                                      | Author                        | Description                                                                                   |
-|-------------------------------------------------|-------------------------------|-----------------------------------------------------------------------------------------------|
-| *C++ Primer Plus* (6th Edition)                 | Stephen Prata                 | Beginner-friendly with plain language, real-life examples, and chapter exercises. Ideal for novices to learn C++ step by step from syntax to OOP. |
-| *C++ Primer* (5th/6th Edition)                  | Stanley B. Lippman et al.     | The definitive beginner-to-intermediate bible. Covers syntax, STL, and modern practices comprehensively. Suitable for self-learners to consolidate systems or advance. |
-| *Accelerated C++*                               | Andrew Koenig & Barbara E. Moo| Project-driven fast track. Teaches effective, idiomatic C++ from day one. Best for learners with some programming experience. |
-| *Programming: Principles and Practice Using C++* (2nd Edition) | Bjarne Stroustrup          | Written by the language creator. Combines principles, abstraction, and algorithms. Great for understanding C++’s design philosophy. |
-| *Effective C++* (3rd Edition)                   | Scott Meyers                  | 55 essential guidelines for clear, robust, efficient code. Must-read for beginner-to-intermediate progression. |
-| *Effective Modern C++*                          | Scott Meyers                  | Focuses on C++11/14 best practices. Essential for modern, safe, performant code. |
-| *The C++ Programming Language* (4th Edition)    | Bjarne Stroustrup             | Official reference by the creator. Exhaustive standard/advanced features coverage. A lifelong desk reference. |
-| *Modern C++ Design*                             | Andrei Alexandrescu           | Deep dive into template metaprogramming. Advanced book for experienced programmers. |
+| Book Title                                           | Author                          | Difficulty | Description                                                                 |
+|------------------------------------------------------|---------------------------------|------------|-----------------------------------------------------------------------------|
+| C++ Primer Plus (6th Edition)                        | Stephen Prata                   | ★★☆☆☆     | Beginner-friendly, easy-to-read language, life-related examples, gradual progression from syntax to OOP, exercises in every chapter. Perfect for pure newbies to steadily build a foundation. The only downside is that it does not cover C++11+ modern idioms. |
+| C++ Primer (6th Edition)                             | Stanley B. Lippman et al.       | ★★★☆☆     | The comprehensive and systematic “C++ Bible”, covering syntax, STL, and C++11+ modern features with a strong emphasis on real-world practice. High knowledge density and in-depth explanations. Much more beginner-friendly than the 5th edition; ideal for solidifying your knowledge base or advancing to modern style after some foundation. |
+| Accelerated C++                                      | Andrew Koenig & Barbara E. Moo  | ★★★☆☆     | Project-driven fast-track introduction, skips redundant content, focuses on efficient and idiomatic production code. Best for learners with slight prior programming experience who want to get to real projects quickly. |
+| Programming: Principles and Practice Using C++ (2nd Edition) | Bjarne Stroustrup (creator of C++) | ★★★☆☆     | Balances principles and practice; goes beyond syntax to develop abstraction and algorithmic thinking. Perfect for those who want to understand the design philosophy of C++ and build solid underlying logic. |
+| Effective C++ (3rd Edition)                          | Scott Meyers                    | ★★★★☆     | Distills 55 core best-practice guidelines that directly target code pitfalls. Essential reading for the transition from beginner to intermediate; dramatically improves code quality in a short time. |
+| The C++ Programming Language (4th Edition)          | Bjarne Stroustrup (creator of C++) | ★★★★★     | The official authoritative reference manual, exhaustive coverage of the C++ standard and advanced features (including modern ones). Suitable for developers at all stages as a lookup resource. |
+| Modern C++ Design                                    | Andrei Alexandrescu             | ★★★★★     | In-depth exploration of template metaprogramming and generic design patterns, focusing on high-level development techniques. Only for experienced C++ programmers—newbies beware. |
+
+Difficulty guide (from a true zero-basis perspective):  
+★☆☆☆☆ ~ ★★☆☆☆ : Can be read by absolute beginners  
+★★★☆☆          : Requires patience + daily coding practice  
+★★★★☆ ~ ★★★★★ : Mid-to-advanced level only  
 
 ### Free Electronic Book / PDF
 | Book Title                                              | Author                          | Description                                                                                   |
