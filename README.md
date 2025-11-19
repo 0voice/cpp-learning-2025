@@ -99,7 +99,7 @@
 |------|----------|----------------|--------------|
 | 第0周 | 阶段0 | [清晰易懂的C+＋开发环境搭建教程](https://blog.51cto.com/u_16349720/14112761)| 完成开发环境搭建 |
 | 第1-3周  | 阶段 1 | [黑马程序员](https://www.bilibili.com/video/BV1et411b73Z/?spm_id_from=333.337.search-card.all.click&vd_source=b1133efda5c53025ed35233121e57402)或 [翁恺《C++ 程序设计》](https://www.bilibili.com/video/BV1dr4y1n7vA/?spm_id_from=333.337.search-card.all.click&vd_source=b1133efda5c53025ed35233121e57402) | 完成3个demo放GitHub |
-| 第4-7周  | 阶段 2 | 《C++ Primer》 | 学生/图书管理系统完整版 |
+| 第4-7周  | 阶段 2 | 《C++ Primer Plus》 | 学生/图书管理系统完整版 |
 | 第7-9周  | 阶段 3 | 《Effective Modern C++》 | 词频统计工具 |
 | 第10-15周 | 阶段 4 | [实战项目](#实战项目)中选一个大项目 | 完成项目传GitHub |
 | 第16-18周 | 阶段 5 | 牛客/LeetCode C++ 专区 | 高频笔面题 + 项目复盘 |
@@ -153,7 +153,8 @@
 ### 实体书推荐
 | 书籍名称 | 作者 | 简介 |
 |----------|------|------|
-| 《C++ Primer》（第 5/6 版） | Stanley B. Lippman 等 | 全面入门圣经，从语法到 STL，强调现代实践，适合零基础自学者。 |
+| 《C++ Primer Plus》（第 6 版） | Stephen Prata | 零基础友好天花板！语言通俗、例子贴近生活，章节从语法基础到面向对象逐步递进，每章配套练习题，适合纯新手稳步入门，避免复杂概念劝退。 |
+| 《C++ Primer》（第 5/6 版） | Stanley B. Lippman 等 | 全面入门圣经，从语法到 STL，强调现代实践。知识点密度高、讲解深入，更适合有一定编程基础后，用来夯实体系或进阶提升，零基础不建议直接上手。 |
 | 《Accelerated C++》 | Andrew Koenig & Barbara E. Moo | 项目驱动快速上手，聚焦高效代码，适合有基础初学者。 |
 | 《Programming: Principles and Practice Using C++》（第 2 版） | Bjarne Stroustrup | 原则+实践教材，讲解抽象与算法，适合理解语言哲学者。 |
 | 《Effective C++》（第 3 版） | Scott Meyers | 55 条最佳实践，避免陷阱，提升中级代码质量。 |
