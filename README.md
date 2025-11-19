@@ -151,15 +151,16 @@
 | Programming Abstractions (CS106B) | [YouTube](https://www.youtube.com/playlist?list=PLFE6E58F856038C69) |
 
 ### 实体书推荐
-| 书籍名称 | 作者 | 简介 |
-|----------|------|------|
-| 《C++ Primer Plus》（第 6 版） | Stephen Prata | 零基础友好天花板！语言通俗、例子贴近生活，章节从语法基础到面向对象逐步递进，每章配套练习题，适合纯新手稳步入门，避免复杂概念劝退。 |
-| 《C++ Primer》（第 5/6 版） | Stanley B. Lippman 等 | 	全面系统的 C++ 圣经，从语法到 STL，强调现代实践。知识点密度高、讲解深入，更适合有一定编程基础后，用来夯实体系或进阶提升，零基础不建议直接上手。 |
-| 《Accelerated C++》 | Andrew Koenig & Barbara E. Moo | 项目驱动快速上手，聚焦高效代码，适合有基础初学者。 |
-| 《Programming: Principles and Practice Using C++》（第 2 版） | Bjarne Stroustrup | 原则+实践教材，讲解抽象与算法，适合理解语言哲学者。 |
-| 《Effective C++》（第 3 版） | Scott Meyers | 55 条最佳实践，避免陷阱，提升中级代码质量。 |
-| 《The C++ Programming Language》（第 4 版） | Bjarne Stroustrup | 官方参考手册，详尽标准与高级特性，资深开发者必备。 |
-| 《Modern C++ Design》 | Andrei Alexandrescu | 模板元编程与泛型模式，深度设计技巧，针对经验程序员。 |
+| 书籍名称                                      | 作者                | 难度 | 简介                                                                 |
+|-----------------------------------------------|---------------------|------|----------------------------------------------------------------------|
+| 《C++ Primer Plus》（第 6 版）                 | Stephen Prata       | ★★☆☆☆ | 零基础友好，语言通俗、例子贴近生活，从语法到面向对象逐步递进，每章配套练习题。适合纯新手稳步搭建基础，唯一不足是未涵盖 C++11+ 现代写法。 |
+| 《C++ Primer》（第 6 版）                      | Stanley B. Lippman 等 | ★★★☆☆ | 全面系统的 C++ 圣经，覆盖语法、STL 及 C++11+ 现代特性，强调实战实践。知识点密度高、讲解深入，比第 5 版更易入门，适合有基础后夯实体系或进阶现代写法。 |
+| 《Accelerated C++》           | Andrew Koenig & Barbara E. Moo | ★★★☆☆ | 项目驱动式快速入门，跳过冗余内容，聚焦高效、规范的实战代码。适合有轻微编程基础、想快速上手项目的学习者。 |
+| 《Programming: Principles and Practice Using C++》（第 2 版）（《C++程序设计：原理与实践》） | Bjarne Stroustrup（C++之父） | ★★★☆☆ | 兼顾原则与实践，不只是教语法，更侧重培养抽象思维与算法能力。适合想理解 C++ 设计哲学、打好底层逻辑的学习者。 |
+| 《Effective C++》（第 3 版）                   | Scott Meyers        | ★★★★☆ | 提炼 55 条核心最佳实践，直指代码陷阱。是初学者向中级进阶的必备读物，能快速提升代码质量。 |
+| 《The C++ Programming Language》（第 4 版）（《C++程序设计语言》） | Bjarne Stroustrup（C++之父） | ★★★★★ | 官方权威参考手册，详尽覆盖 C++ 标准及高级特性（含现代特性）。适合各阶段开发者查阅。 |
+| 《Modern C++ Design》（《现代 C++ 设计》）     | Andrei Alexandrescu | ★★★★★ | 深入讲解模板元编程与泛型设计模式，聚焦高阶开发技巧。仅针对有丰富经验的 C++ 程序员，新手慎入。 |
+
 
 ### 电子书推荐
 | 书籍名称 | 作者 | 简介 |
