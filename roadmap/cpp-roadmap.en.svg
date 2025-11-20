@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2740pt" height="604pt" viewBox="0.00 0.00 2740.00 604.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 600)">
+<title>CPlusPlus_Roadmap_2025</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-600 2736.04,-600 2736.04,4 -4,4"/>
+<text xml:space="preserve" text-anchor="start" x="1075.59" y="-562.4" font-family="Times,serif" font-weight="bold" font-size="34.00" fill="#1565c0">C++ 2025 Complete Learning Roadmap</text>
+<!-- Stage0 -->
+<g id="node1" class="node">
+<title>Stage0</title>
+<path fill="#e8f5e8" stroke="#2e7d32" stroke-width="4" d="M312.2,-547.2C312.2,-547.2 141.8,-547.2 141.8,-547.2 135.8,-547.2 129.8,-541.2 129.8,-535.2 129.8,-535.2 129.8,-458.4 129.8,-458.4 129.8,-452.4 135.8,-446.4 141.8,-446.4 141.8,-446.4 312.2,-446.4 312.2,-446.4 318.2,-446.4 324.2,-452.4 324.2,-458.4 324.2,-458.4 324.2,-535.2 324.2,-535.2 324.2,-541.2 318.2,-547.2 312.2,-547.2"/>
+<text xml:space="preserve" text-anchor="middle" x="227" y="-513.9" font-family="Helvetica,sans-Serif" font-size="19.00">Stage 0</text>
+<text xml:space="preserve" text-anchor="middle" x="227" y="-491.1" font-family="Helvetica,sans-Serif" font-size="19.00">Setup</text>
+<text xml:space="preserve" text-anchor="middle" x="227" y="-468.3" font-family="Helvetica,sans-Serif" font-size="19.00">0.5–1 Day</text>
+</g>
+<!-- Stage1 -->
+<g id="node2" class="node">
+<title>Stage1</title>
+<path fill="#e3f2fd" stroke="#1565c0" stroke-width="4" d="M629.2,-547.2C629.2,-547.2 458.8,-547.2 458.8,-547.2 452.8,-547.2 446.8,-541.2 446.8,-535.2 446.8,-535.2 446.8,-458.4 446.8,-458.4 446.8,-452.4 452.8,-446.4 458.8,-446.4 458.8,-446.4 629.2,-446.4 629.2,-446.4 635.2,-446.4 641.2,-452.4 641.2,-458.4 641.2,-458.4 641.2,-535.2 641.2,-535.2 641.2,-541.2 635.2,-547.2 629.2,-547.2"/>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-513.9" font-family="Helvetica,sans-Serif" font-size="19.00">Stage 1</text>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-491.1" font-family="Helvetica,sans-Serif" font-size="19.00">Foundations</text>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-468.3" font-family="Helvetica,sans-Serif" font-size="19.00">2–3 Weeks</text>
+</g>
+<!-- Stage0&#45;&gt;Stage1 -->
+<g id="edge1" class="edge">
+<title>Stage0-&gt;Stage1</title>
+<path fill="none" stroke="#1976d2" stroke-width="14" d="M326.06,-496.8C365.65,-496.8 405.24,-496.8 444.82,-496.8"/>
+</g>
+<!-- S0 -->
+<g id="node7" class="node">
+<title>S0</title>
+<path fill="#c8e6c9" stroke="black" stroke-width="3" d="M312,-324C312,-324 12,-324 12,-324 6,-324 0,-318 0,-312 0,-312 0,-235.2 0,-235.2 0,-229.2 6,-223.2 12,-223.2 12,-223.2 312,-223.2 312,-223.2 318,-223.2 324,-229.2 324,-235.2 324,-235.2 324,-312 324,-312 324,-318 318,-324 312,-324"/>
+<text xml:space="preserve" text-anchor="middle" x="162" y="-290.7" font-family="Helvetica,sans-Serif" font-size="19.00">• Compiler + VSCode</text>
+<text xml:space="preserve" text-anchor="middle" x="162" y="-267.9" font-family="Helvetica,sans-Serif" font-size="19.00">• Git + CMake</text>
+<text xml:space="preserve" text-anchor="middle" x="162" y="-245.1" font-family="Helvetica,sans-Serif" font-size="19.00">• First Hello World Program</text>
+</g>
+<!-- Stage0&#45;&gt;S0 -->
+<g id="edge6" class="edge">
+<title>Stage0-&gt;S0</title>
+<path fill="none" stroke="#2e7d32" stroke-width="5" d="M211.92,-444.5C203.28,-415.08 192.3,-377.71 182.84,-345.52"/>
+<polygon fill="#2e7d32" stroke="#2e7d32" stroke-width="5" points="189.17,-343.77 178.64,-331.23 176.57,-347.47 189.17,-343.77"/>
+</g>
+<!-- Stage2 -->
+<g id="node3" class="node">
+<title>Stage2</title>
+<path fill="#fff3e0" stroke="#ef6c00" stroke-width="4" d="M1134.2,-547.2C1134.2,-547.2 963.8,-547.2 963.8,-547.2 957.8,-547.2 951.8,-541.2 951.8,-535.2 951.8,-535.2 951.8,-458.4 951.8,-458.4 951.8,-452.4 957.8,-446.4 963.8,-446.4 963.8,-446.4 1134.2,-446.4 1134.2,-446.4 1140.2,-446.4 1146.2,-452.4 1146.2,-458.4 1146.2,-458.4 1146.2,-535.2 1146.2,-535.2 1146.2,-541.2 1140.2,-547.2 1134.2,-547.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1049" y="-513.9" font-family="Helvetica,sans-Serif" font-size="19.00">Stage 2</text>
+<text xml:space="preserve" text-anchor="middle" x="1049" y="-491.1" font-family="Helvetica,sans-Serif" font-size="19.00">OOP Core</text>
+<text xml:space="preserve" text-anchor="middle" x="1049" y="-468.3" font-family="Helvetica,sans-Serif" font-size="19.00">3–4 Weeks</text>
+</g>
+<!-- Stage1&#45;&gt;Stage2 -->
+<g id="edge2" class="edge">
+<title>Stage1-&gt;Stage2</title>
+<path fill="none" stroke="#1976d2" stroke-width="14" d="M643.13,-496.8C745.39,-496.8 847.65,-496.8 949.91,-496.8"/>
+</g>
+<!-- S1 -->
+<g id="node8" class="node">
+<title>S1</title>
+<path fill="#bbdefb" stroke="black" stroke-width="3" d="M694,-331.6C694,-331.6 394,-331.6 394,-331.6 388,-331.6 382,-325.6 382,-319.6 382,-319.6 382,-227.6 382,-227.6 382,-221.6 388,-215.6 394,-215.6 394,-215.6 694,-215.6 694,-215.6 700,-215.6 706,-221.6 706,-227.6 706,-227.6 706,-319.6 706,-319.6 706,-325.6 700,-331.6 694,-331.6"/>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-311.4" font-family="Helvetica,sans-Serif" font-size="18.00">Variables/Data Types/Operators</text>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-289.8" font-family="Helvetica,sans-Serif" font-size="18.00">Loops/Conditionals/Functions</text>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-268.2" font-family="Helvetica,sans-Serif" font-size="18.00">Arrays/String Basics</text>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-246.6" font-family="Helvetica,sans-Serif" font-size="18.00">Git Basics + Simple CMake</text>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-225" font-family="Helvetica,sans-Serif" font-size="18.00">Pointers/References (Intro Only)</text>
+</g>
+<!-- Stage1&#45;&gt;S1 -->
+<g id="edge7" class="edge">
+<title>Stage1-&gt;S1</title>
+<path fill="none" stroke="#1565c0" stroke-width="5" d="M544,-444.5C544,-417.69 544,-384.29 544,-354.21"/>
+<polygon fill="#1565c0" stroke="#1565c0" stroke-width="5" points="550.56,-354.28 544,-339.28 537.44,-354.28 550.56,-354.28"/>
+</g>
+<!-- Stage3 -->
+<g id="node4" class="node">
+<title>Stage3</title>
+<path fill="#f3e5f5" stroke="#7b1fa2" stroke-width="4" d="M1652.2,-547.2C1652.2,-547.2 1481.8,-547.2 1481.8,-547.2 1475.8,-547.2 1469.8,-541.2 1469.8,-535.2 1469.8,-535.2 1469.8,-458.4 1469.8,-458.4 1469.8,-452.4 1475.8,-446.4 1481.8,-446.4 1481.8,-446.4 1652.2,-446.4 1652.2,-446.4 1658.2,-446.4 1664.2,-452.4 1664.2,-458.4 1664.2,-458.4 1664.2,-535.2 1664.2,-535.2 1664.2,-541.2 1658.2,-547.2 1652.2,-547.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1567" y="-513.9" font-family="Helvetica,sans-Serif" font-size="19.00">Stage 3</text>
+<text xml:space="preserve" text-anchor="middle" x="1567" y="-491.1" font-family="Helvetica,sans-Serif" font-size="19.00">STL &amp; Modern C++</text>
+<text xml:space="preserve" text-anchor="middle" x="1567" y="-468.3" font-family="Helvetica,sans-Serif" font-size="19.00">2–3 Weeks</text>
+</g>
+<!-- Stage2&#45;&gt;Stage3 -->
+<g id="edge3" class="edge">
+<title>Stage2-&gt;Stage3</title>
+<path fill="none" stroke="#1976d2" stroke-width="14" d="M1148.15,-496.8C1254.77,-496.8 1361.39,-496.8 1468.01,-496.8"/>
+</g>
+<!-- S2 -->
+<g id="node10" class="node">
+<title>S2</title>
+<path fill="#ffe0b2" stroke="black" stroke-width="3" d="M1322.11,-324C1322.11,-324 775.89,-324 775.89,-324 769.89,-324 763.89,-318 763.89,-312 763.89,-312 763.89,-235.2 763.89,-235.2 763.89,-229.2 769.89,-223.2 775.89,-223.2 775.89,-223.2 1322.11,-223.2 1322.11,-223.2 1328.11,-223.2 1334.11,-229.2 1334.11,-235.2 1334.11,-235.2 1334.11,-312 1334.11,-312 1334.11,-318 1328.11,-324 1322.11,-324"/>
+<text xml:space="preserve" text-anchor="middle" x="1049" y="-300.6" font-family="Helvetica,sans-Serif" font-size="18.00">Classes &amp; Objects</text>
+<text xml:space="preserve" text-anchor="middle" x="1049" y="-279" font-family="Helvetica,sans-Serif" font-size="18.00">Constructors/Destructors/Copy Constructors/Assignment Overloading</text>
+<text xml:space="preserve" text-anchor="middle" x="1049" y="-257.4" font-family="Helvetica,sans-Serif" font-size="18.00">Inheritance &amp; Polymorphism</text>
+<text xml:space="preserve" text-anchor="middle" x="1049" y="-235.8" font-family="Helvetica,sans-Serif" font-size="18.00">Deep Copy vs Shallow Copy</text>
+</g>
+<!-- Stage2&#45;&gt;S2 -->
+<g id="edge9" class="edge">
+<title>Stage2-&gt;S2</title>
+<path fill="none" stroke="#ef6c00" stroke-width="5" d="M1049,-444.5C1049,-415.36 1049,-378.42 1049,-346.44"/>
+<polygon fill="#ef6c00" stroke="#ef6c00" stroke-width="5" points="1055.56,-346.48 1049,-331.48 1042.44,-346.48 1055.56,-346.48"/>
+</g>
+<!-- Stage4 -->
+<g id="node5" class="node">
+<title>Stage4</title>
+<path fill="#ffebee" stroke="#c62828" stroke-width="4" d="M2152.6,-547.2C2152.6,-547.2 1917.4,-547.2 1917.4,-547.2 1911.4,-547.2 1905.4,-541.2 1905.4,-535.2 1905.4,-535.2 1905.4,-458.4 1905.4,-458.4 1905.4,-452.4 1911.4,-446.4 1917.4,-446.4 1917.4,-446.4 2152.6,-446.4 2152.6,-446.4 2158.6,-446.4 2164.6,-452.4 2164.6,-458.4 2164.6,-458.4 2164.6,-535.2 2164.6,-535.2 2164.6,-541.2 2158.6,-547.2 2152.6,-547.2"/>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-516.6" font-family="Helvetica,sans-Serif" font-size="22.00">Stage 4</text>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-490.2" font-family="Helvetica,sans-Serif" font-size="22.00">Systems Programming</text>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-463.8" font-family="Helvetica,sans-Serif" font-size="22.00">4–6 Weeks</text>
+</g>
+<!-- Stage3&#45;&gt;Stage4 -->
+<g id="edge4" class="edge">
+<title>Stage3-&gt;Stage4</title>
+<path fill="none" stroke="#1976d2" stroke-width="14" d="M1666.18,-496.8C1745.3,-496.8 1824.41,-496.8 1903.53,-496.8"/>
+</g>
+<!-- S3 -->
+<g id="node12" class="node">
+<title>S3</title>
+<path fill="#e1bee7" stroke="black" stroke-width="3" d="M1729.89,-324C1729.89,-324 1404.11,-324 1404.11,-324 1398.11,-324 1392.11,-318 1392.11,-312 1392.11,-312 1392.11,-235.2 1392.11,-235.2 1392.11,-229.2 1398.11,-223.2 1404.11,-223.2 1404.11,-223.2 1729.89,-223.2 1729.89,-223.2 1735.89,-223.2 1741.89,-229.2 1741.89,-235.2 1741.89,-235.2 1741.89,-312 1741.89,-312 1741.89,-318 1735.89,-324 1729.89,-324"/>
+<text xml:space="preserve" text-anchor="middle" x="1567" y="-290.7" font-family="Helvetica,sans-Serif" font-size="19.00">Containers + Algorithms</text>
+<text xml:space="preserve" text-anchor="middle" x="1567" y="-267.9" font-family="Helvetica,sans-Serif" font-size="19.00">Lambda Expressions + File I/O</text>
+<text xml:space="preserve" text-anchor="middle" x="1567" y="-245.1" font-family="Helvetica,sans-Serif" font-size="19.00">Exception Handling + C++11+ Features</text>
+</g>
+<!-- Stage3&#45;&gt;S3 -->
+<g id="edge11" class="edge">
+<title>Stage3-&gt;S3</title>
+<path fill="none" stroke="#7b1fa2" stroke-width="5" d="M1567,-444.5C1567,-415.36 1567,-378.42 1567,-346.44"/>
+<polygon fill="#7b1fa2" stroke="#7b1fa2" stroke-width="5" points="1573.56,-346.48 1567,-331.48 1560.44,-346.48 1573.56,-346.48"/>
+</g>
+<!-- Stage5 -->
+<g id="node6" class="node">
+<title>Stage5</title>
+<path fill="#fffde7" stroke="#f9a825" stroke-width="4" d="M2510.2,-547.2C2510.2,-547.2 2339.8,-547.2 2339.8,-547.2 2333.8,-547.2 2327.8,-541.2 2327.8,-535.2 2327.8,-535.2 2327.8,-458.4 2327.8,-458.4 2327.8,-452.4 2333.8,-446.4 2339.8,-446.4 2339.8,-446.4 2510.2,-446.4 2510.2,-446.4 2516.2,-446.4 2522.2,-452.4 2522.2,-458.4 2522.2,-458.4 2522.2,-535.2 2522.2,-535.2 2522.2,-541.2 2516.2,-547.2 2510.2,-547.2"/>
+<text xml:space="preserve" text-anchor="middle" x="2425" y="-513.9" font-family="Helvetica,sans-Serif" font-size="19.00">Stage 5</text>
+<text xml:space="preserve" text-anchor="middle" x="2425" y="-491.1" font-family="Helvetica,sans-Serif" font-size="19.00">Interview Prep</text>
+<text xml:space="preserve" text-anchor="middle" x="2425" y="-468.3" font-family="Helvetica,sans-Serif" font-size="19.00">2–3 Weeks</text>
+</g>
+<!-- Stage4&#45;&gt;Stage5 -->
+<g id="edge5" class="edge">
+<title>Stage4-&gt;Stage5</title>
+<path fill="none" stroke="#1976d2" stroke-width="14" d="M2166.4,-496.8C2219.6,-496.8 2272.8,-496.8 2326,-496.8"/>
+</g>
+<!-- S4 -->
+<g id="node14" class="node">
+<title>S4</title>
+<path fill="#ffcdd2" stroke="black" stroke-width="5" d="M2258.25,-338.4C2258.25,-338.4 1811.75,-338.4 1811.75,-338.4 1805.75,-338.4 1799.75,-332.4 1799.75,-326.4 1799.75,-326.4 1799.75,-220.8 1799.75,-220.8 1799.75,-214.8 1805.75,-208.8 1811.75,-208.8 1811.75,-208.8 2258.25,-208.8 2258.25,-208.8 2264.25,-208.8 2270.25,-214.8 2270.25,-220.8 2270.25,-220.8 2270.25,-326.4 2270.25,-326.4 2270.25,-332.4 2264.25,-338.4 2258.25,-338.4"/>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-309.3" font-family="Helvetica,sans-Serif" font-size="17.00">RAII &amp; Smart Pointers (In-Depth)</text>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-288.9" font-family="Helvetica,sans-Serif" font-size="17.00">Multithreading (std::thread/Mutex/Condition Variable/Atomic)</text>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-268.5" font-family="Helvetica,sans-Serif" font-size="17.00">Thread Pool Implementation</text>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-248.1" font-family="Helvetica,sans-Serif" font-size="17.00">Socket Programming (TCP/UDP) + Simple HTTP Server</text>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-227.7" font-family="Helvetica,sans-Serif" font-size="17.00">Design Patterns + Debugging &amp; Profiling</text>
+</g>
+<!-- Stage4&#45;&gt;S4 -->
+<g id="edge13" class="edge">
+<title>Stage4-&gt;S4</title>
+<path fill="none" stroke="#c62828" stroke-width="8" d="M2035,-444.5C2035,-420.13 2035,-390.3 2035,-362.48"/>
+<polygon fill="#c62828" stroke="#c62828" stroke-width="8" points="2045.5,-362.72 2035,-347.72 2024.5,-362.72 2045.5,-362.72"/>
+</g>
+<!-- S5 -->
+<g id="node16" class="node">
+<title>S5</title>
+<path fill="#fff9c4" stroke="black" stroke-width="3" d="M2720.04,-324C2720.04,-324 2339.96,-324 2339.96,-324 2333.96,-324 2327.96,-318 2327.96,-312 2327.96,-312 2327.96,-235.2 2327.96,-235.2 2327.96,-229.2 2333.96,-223.2 2339.96,-223.2 2339.96,-223.2 2720.04,-223.2 2720.04,-223.2 2726.04,-223.2 2732.04,-229.2 2732.04,-235.2 2732.04,-235.2 2732.04,-312 2732.04,-312 2732.04,-318 2726.04,-324 2720.04,-324"/>
+<text xml:space="preserve" text-anchor="middle" x="2530" y="-279.3" font-family="Helvetica,sans-Serif" font-size="19.00">150+ Interview Questions + Hand-Coding</text>
+<text xml:space="preserve" text-anchor="middle" x="2530" y="-256.5" font-family="Helvetica,sans-Serif" font-size="19.00">Resume Polishing + Interview Communication</text>
+</g>
+<!-- Stage5&#45;&gt;S5 -->
+<g id="edge15" class="edge">
+<title>Stage5-&gt;S5</title>
+<path fill="none" stroke="#f9a825" stroke-width="5" d="M2449.35,-444.5C2463.52,-414.66 2481.56,-376.64 2496.99,-344.14"/>
+<polygon fill="#f9a825" stroke="#f9a825" stroke-width="5" points="2502.78,-347.24 2503.29,-330.88 2490.92,-341.62 2502.78,-347.24"/>
+</g>
+<!-- D1 -->
+<g id="node9" class="node">
+<title>D1</title>
+<path fill="#e3f2ff" stroke="black" stroke-width="4" d="M694,-100.8C694,-100.8 394,-100.8 394,-100.8 388,-100.8 382,-94.8 382,-88.8 382,-88.8 382,-12 382,-12 382,-6 388,0 394,0 394,0 694,0 694,0 700,0 706,-6 706,-12 706,-12 706,-88.8 706,-88.8 706,-94.8 700,-100.8 694,-100.8"/>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-56.1" font-family="Helvetica,sans-Serif" font-size="19.00">Calculator • Number Guessing</text>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-33.3" font-family="Helvetica,sans-Serif" font-size="19.00">Upload to GitHub</text>
+</g>
+<!-- S1&#45;&gt;D1 -->
+<g id="edge8" class="edge">
+<title>S1-&gt;D1</title>
+<path fill="none" stroke="#1565c0" stroke-width="5" d="M544,-214.19C544,-186.42 544,-152.94 544,-123.59"/>
+<polygon fill="#1565c0" stroke="#1565c0" stroke-width="5" points="550.56,-123.83 544,-108.83 537.44,-123.83 550.56,-123.83"/>
+</g>
+<!-- D2 -->
+<g id="node11" class="node">
+<title>D2</title>
+<path fill="#fff3e0" stroke="black" stroke-width="4" d="M1199,-100.8C1199,-100.8 899,-100.8 899,-100.8 893,-100.8 887,-94.8 887,-88.8 887,-88.8 887,-12 887,-12 887,-6 893,0 899,0 899,0 1199,0 1199,0 1205,0 1211,-6 1211,-12 1211,-12 1211,-88.8 1211,-88.8 1211,-94.8 1205,-100.8 1199,-100.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1049" y="-56.1" font-family="Helvetica,sans-Serif" font-size="19.00">Student Information System</text>
+<text xml:space="preserve" text-anchor="middle" x="1049" y="-33.3" font-family="Helvetica,sans-Serif" font-size="19.00">Library Management System</text>
+</g>
+<!-- S2&#45;&gt;D2 -->
+<g id="edge10" class="edge">
+<title>S2-&gt;D2</title>
+<path fill="none" stroke="#ef6c00" stroke-width="5" d="M1049,-221.85C1049,-192.7 1049,-155.6 1049,-123.46"/>
+<polygon fill="#ef6c00" stroke="#ef6c00" stroke-width="5" points="1055.56,-123.91 1049,-108.91 1042.44,-123.91 1055.56,-123.91"/>
+</g>
+<!-- D3 -->
+<g id="node13" class="node">
+<title>D3</title>
+<path fill="#f3e5f5" stroke="black" stroke-width="4" d="M1717,-100.8C1717,-100.8 1417,-100.8 1417,-100.8 1411,-100.8 1405,-94.8 1405,-88.8 1405,-88.8 1405,-12 1405,-12 1405,-6 1411,0 1417,0 1417,0 1717,0 1717,0 1723,0 1729,-6 1729,-12 1729,-12 1729,-88.8 1729,-88.8 1729,-94.8 1723,-100.8 1717,-100.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1567" y="-56.1" font-family="Helvetica,sans-Serif" font-size="19.00">Word Frequency Tool</text>
+<text xml:space="preserve" text-anchor="middle" x="1567" y="-33.3" font-family="Helvetica,sans-Serif" font-size="19.00">Simple Logging System</text>
+</g>
+<!-- S3&#45;&gt;D3 -->
+<g id="edge12" class="edge">
+<title>S3-&gt;D3</title>
+<path fill="none" stroke="#7b1fa2" stroke-width="5" d="M1567,-221.85C1567,-192.7 1567,-155.6 1567,-123.46"/>
+<polygon fill="#7b1fa2" stroke="#7b1fa2" stroke-width="5" points="1573.56,-123.91 1567,-108.91 1560.44,-123.91 1573.56,-123.91"/>
+</g>
+<!-- D4 -->
+<g id="node15" class="node">
+<title>D4</title>
+<path fill="#ffebee" stroke="black" stroke-width="7" d="M2191.51,-100.8C2191.51,-100.8 1878.49,-100.8 1878.49,-100.8 1872.49,-100.8 1866.49,-94.8 1866.49,-88.8 1866.49,-88.8 1866.49,-12 1866.49,-12 1866.49,-6 1872.49,0 1878.49,0 1878.49,0 2191.51,0 2191.51,0 2197.51,0 2203.51,-6 2203.51,-12 2203.51,-12 2203.51,-88.8 2203.51,-88.8 2203.51,-94.8 2197.51,-100.8 2191.51,-100.8"/>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-74.4" font-family="Helvetica,sans-Serif" font-size="16.00">Major Project (Choose One)</text>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-55.2" font-family="Helvetica,sans-Serif" font-size="16.00">① High-Performance Thread Pool</text>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-36" font-family="Helvetica,sans-Serif" font-size="16.00">② Lightweight HTTP Server with Thread Pool</text>
+<text xml:space="preserve" text-anchor="middle" x="2035" y="-16.8" font-family="Helvetica,sans-Serif" font-size="16.00">③ High-Performance Chat Server</text>
+</g>
+<!-- S4&#45;&gt;D4 -->
+<g id="edge14" class="edge">
+<title>S4-&gt;D4</title>
+<path fill="none" stroke="#c62828" stroke-width="8" d="M2035,-206.53C2035,-181.23 2035,-152.19 2035,-126.13"/>
+<polygon fill="#c62828" stroke="#c62828" stroke-width="8" points="2045.5,-126.14 2035,-111.14 2024.5,-126.14 2045.5,-126.14"/>
+</g>
+</g>
+</svg>
