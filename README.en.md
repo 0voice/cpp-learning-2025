@@ -113,7 +113,7 @@ If you haven't completed this step or encounter any difficulties, please refer t
 | 1–3  | Stage 1 | The Cherno / freeCodeCamp C++ | 3 small demos → GitHub |
 | 4–7  | Stage 2 | C++ Primer | Student/Library system |
 | 7–9  | Stage 3 | Effective Modern C++ | Word frequency tool |
-| 10–15| Stage 4 | Project-driven (see below) | One big project → GitHub |
+| 10–15| Stage 4 | Major Project (choose one)  | One big project → GitHub |
 | 16–18| Stage 5 | LeetCode + mock interviews | 150 questions + resume projects |
 
 ## Core Knowledge
