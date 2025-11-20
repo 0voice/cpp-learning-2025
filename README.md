@@ -98,7 +98,7 @@
 | 周数 | 阶段 | 推荐资源 | 阶段任务 |
 |------|----------|----------------|--------------|
 | 第0周 | 阶段0 | [C++ 开发环境搭建指南](https://github.com/0voice/awesome-modern-cpp-2025/blob/main/environment_setup/README.md)或[清晰易懂的C+＋开发环境搭建教程](https://blog.51cto.com/u_16349720/14112761)| 完成开发环境搭建 |
-| 第1-3周  | 阶段 1 | [黑马程序员](https://www.bilibili.com/video/BV1et411b73Z/?spm_id_from=333.337.search-card.all.click&vd_source=b1133efda5c53025ed35233121e57402)或 [翁恺《C++ 程序设计》](https://www.bilibili.com/video/BV1dr4y1n7vA/?spm_id_from=333.337.search-card.all.click&vd_source=b1133efda5c53025ed35233121e57402) | 完成3个demo放GitHub |
+| 第1-3周  | 阶段 1 | [黑马程序员](https://www.bilibili.com/video/BV1et411b73Z/?spm_id_from=333.337.search-card.all.click&vd_source=b1133efda5c53025ed35233121e57402)| 完成3个demo放GitHub |
 | 第4-7周  | 阶段 2 | 《C++ Primer Plus》 | 学生/图书管理系统完整版 |
 | 第7-9周  | 阶段 3 | 《Effective Modern C++》 | 词频统计工具 |
 | 第10-15周 | 阶段 4 | [实战项目](#实战项目)中选一个大项目 | 完成项目传GitHub |
@@ -138,7 +138,6 @@
 ### 视频推荐
 | 视频名称 | 链接 |
 |----------|------|
-| 浙江大学翁恺教你C语言程序设计！C语言基础入门！ | [Bilibili](https://www.bilibili.com/video/BV1dr4y1n7vA/?spm_id_from=333.337.search-card.all.click&vd_source=b1133efda5c53025ed35233121e57402) |
 | 黑马程序员匠心之作 C++教程从0到1入门编程,学习编程不再难 | [Bilibili](https://www.bilibili.com/video/BV1et411b73Z/?spm_id_from=333.337.search-card.all.click&vd_source=b1133efda5c53025ed35233121e57402) |
 | 【整整300集】这绝对是2025年B站最全最细的C++零基础全套教程 | [Bilibili](https://www.bilibili.com/video/BV1Y6oVYGE4v/?spm_id_from=333.337.search-card.all.click&vd_source=b1133efda5c53025ed35233121e57402) |
 | C++ Programming Course - Beginner to Advanced | [YouTube](https://www.youtube.com/watch?v=8jLOx1hD3_o) |
