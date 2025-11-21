@@ -39,6 +39,7 @@ Relevant discussions:
 - [Learning Roadmap](#learning-roadmap)
 - [Core Knowledge](#core-knowledge)
 - [Advanced Modern C++ Features](advanced-modern-c-features-c20--c23)
+- [C++ Development on Linux](https://github.com/0voice/awesome-modern-cpp-2025/tree/main/cpp-on-linux)
 - [Recommended Resources](#recommended-resources)
 - [Tools](#tools)
 - [Application Fields](#application-fields)
