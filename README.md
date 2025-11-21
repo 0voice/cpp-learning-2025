@@ -39,6 +39,7 @@
 ## 目录
 - [学习路线](#学习路线)
 - [核心知识点](#核心知识点)
+- [C++现代特性进阶](#c-现代特性进阶c20--c23)
 - [推荐资源](#推荐资源)
 - [常用工具](#常用工具)
 - [应用方向](#应用方向)
@@ -145,6 +146,158 @@
   - **网络编程**：TCP/UDP基础、Socket编程流程（服务端/客户端）、TCP粘包问题、IO多路复用简介
   - **设计模式**：单例（线程安全版）、简单工厂/工厂方法、策略模式（适用场景+核心代码）
 
+
+
+## C++ 现代特性进阶（C++20 & C++23）
+
+
+### 1. Concepts 与 requires（C++20）
+作用：对模板参数添加清晰、可读性高的约束，替代复杂的 SFINAE。
+
+```cpp
+template<typename T>
+concept Integral = std::is_integral_v<T>;
+
+template<Integral T>
+T add(T a, T b) { return a + b; }
+
+// 自定义复杂概念
+template<typename T>
+concept Hashable = requires(T x) {
+    { std::hash<T>{}(x) } -> std::convertible_to<std::size_t>;
+};
+
+template<Hashable T>
+class Cache { /* ... */ };
+```
+
+### 2. Ranges 库（C++20）
+作用：函数式风格处理序列，支持延迟计算与管道写法，代码更简洁高效。
+
+```cpp
+std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+auto result = v
+    | std::views::filter([](int x) { return x % 2 == 0; })   // 偶数
+    | std::views::transform([](int x) { return x * x; })     // 平方
+    | std::views::take(4);                                   // 前 4 个
+
+for (int x : result) std::cout << x << ' ';  // 4 16 36 64
+```
+
+### 3. std::span（C++20）
+作用：轻量级、非拥有权的固定大小数组/容器视图，安全传递连续数据。
+
+```cpp
+void process(std::span<const int> data) {
+    for (int x : data) std::cout << x << ' ';
+}
+
+std::vector<int> vec{1, 2, 3};
+int arr[] = {4, 5, 6};
+process(vec);
+process(arr);
+```
+
+### 4. Coroutines 协程（C++20）
+作用：编写异步/生成器代码更自然，无需回调或线程。
+
+```cpp
+#include <coroutine>
+#include <iostream>
+
+struct Generator {
+    struct promise_type {
+        int current_value;
+        std::suspend_always yield_value(int value) {
+            current_value = value;
+            return {};
+        }
+        std::suspend_always initial_suspend() { return {}; }
+        std::suspend_always final_suspend() noexcept { return {}; }
+        Generator get_return_object() { return {}; }
+        void return_void() {}
+        void unhandled_exception() {}
+    };
+    bool next() { /* 实际使用需配合协程库 */ return false; }
+    int value() { return 0; }
+};
+```
+
+### 5. deducing this（C++23）
+作用：让成员函数显式接收 this 参数，极大简化 CRTP 与递归写法。
+
+```cpp
+struct Node {
+    Node* left = nullptr;
+    Node* right = nullptr;
+
+    int height(this Node const& self) {
+        if (!self.left && !self.right) return 1;
+        int l = self.left ? self.left->height() : 0;
+        int r = self.right ? self.right->height() : 0;
+        return 1 + std::max(l, r);
+    }
+};
+```
+
+### 6. std::expected（C++23）
+作用：携带值或错误信息的现代返回值类型，比异常和返回值对更轻量。
+
+```cpp
+std::expected<int, std::string> safe_divide(int a, int b) {
+    if (b == 0) return std::unexpected("division by zero");
+    return a / b;
+}
+
+auto result = safe_divide(42, 7)
+                .and_then([](int x) { return safe_divide(100, x); })
+                .value_or(-1);
+```
+
+### 7. std::mdspan（C++23）
+作用：非拥有权的多维数组视图，适合图像、矩阵、科学计算场景。
+
+```cpp
+#include <mdspan>
+
+void print(std::mdspan<const int, std::dextents<size_t, 2>> matrix) {
+    for (size_t i = 0; i < matrix.extent(0); ++i) {
+        for (size_t j = 0; j < matrix.extent(1); ++j)
+            std::cout << matrix(i, j) << ' ';
+        std::cout << '\n';
+    }
+}
+```
+
+### 8. std::flat_map / std::flat_set（C++23）
+作用：基于连续容器的有序映射/集合，缓存友好，查找速度更快。
+
+```cpp
+std::flat_map<std::string, int> m = {
+    {"apple", 5}, {"banana", 3}, {"orange", 8}
+};
+// 自动排序，内存连续，适合热点数据
+```
+
+### 9. 多维下标 operator[]（C++23）
+作用：原生支持多维数组下标操作，语法更直观。
+
+```cpp
+int arr[3][4][5]{};
+arr[1, 2, 3] = 42;        // 相当于 arr[1][2][3] = 42;
+```
+
+### 10. Lambda 增强（C++23）
+作用：支持模板参数、属性标记，表达能力更强。
+
+```cpp
+auto templated_lambda = []<typename T>(T a, T b) {
+    return a + b;
+};
+
+auto attributed = [] [[nodiscard]] (int x) { return x * x; };
+```
 
 
 ## 推荐资源
