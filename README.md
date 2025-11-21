@@ -150,9 +150,9 @@
 
 ## C++ 现代特性进阶（C++20 & C++23）
 
-
 ### 1. Concepts 与 requires（C++20）
 作用：对模板参数添加清晰、可读性高的约束，替代复杂的 SFINAE。
+什么时候用：所有泛型库、自己写模板函数/类时必开。
 
 ```cpp
 template<typename T>
@@ -170,10 +170,12 @@ concept Hashable = requires(T x) {
 template<Hashable T>
 class Cache { /* ... */ };
 ```
+常见坑：概念太严格会导致本来能编译的代码过不去，建议先写宽松概念，再逐步收紧。
 
 ### 2. Ranges 库（C++20）
 作用：函数式风格处理序列，支持延迟计算与管道写法，代码更简洁高效。
-
+什么时候用：任何需要 filter/map/take/drop/sort 的地方。
+优势：不产生中间容器，缓存友好，代码量减半。
 ```cpp
 std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
@@ -187,7 +189,7 @@ for (int x : result) std::cout << x << ' ';  // 4 16 36 64
 
 ### 3. std::span（C++20）
 作用：轻量级、非拥有权的固定大小数组/容器视图，安全传递连续数据。
-
+什么时候用：函数参数需要“一段连续内存”时，全部改 span。
 ```cpp
 void process(std::span<const int> data) {
     for (int x : data) std::cout << x << ' ';
@@ -198,6 +200,7 @@ int arr[] = {4, 5, 6};
 process(vec);
 process(arr);
 ```
+常见错误：span 保存的是视图，原始数据析构了会悬空。确保生命周期比 span 长。
 
 ### 4. Coroutines 协程（C++20）
 作用：编写异步/生成器代码更自然，无需回调或线程。
@@ -225,7 +228,7 @@ struct Generator {
 ```
 
 ### 5. deducing this（C++23）
-作用：让成员函数显式接收 this 参数，极大简化 CRTP 与递归写法。
+作用：让成员函数把 this 当作普通参数传，完美解决 CRTP 和递归 lambda 的痛点。
 
 ```cpp
 struct Node {
@@ -243,7 +246,7 @@ struct Node {
 
 ### 6. std::expected（C++23）
 作用：携带值或错误信息的现代返回值类型，比异常和返回值对更轻量。
-
+适用场景：所有可能失败但不值得抛异常的操作（解析、IO、计算等）。
 ```cpp
 std::expected<int, std::string> safe_divide(int a, int b) {
     if (b == 0) return std::unexpected("division by zero");
@@ -272,7 +275,7 @@ void print(std::mdspan<const int, std::dextents<size_t, 2>> matrix) {
 
 ### 8. std::flat_map / std::flat_set（C++23）
 作用：基于连续容器的有序映射/集合，缓存友好，查找速度更快。
-
+什么时候用：配置表、字典、频繁查找的小数据集（< 10万条）全换 flat_map。
 ```cpp
 std::flat_map<std::string, int> m = {
     {"apple", 5}, {"banana", 3}, {"orange", 8}
