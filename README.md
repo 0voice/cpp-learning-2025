@@ -47,6 +47,7 @@
 - [实战项目](#实战项目)
 - [面试题](#面试题)
 
+
 ## 学习路线
   
   <img src="https://raw.githubusercontent.com/0voice/awesome-modern-cpp-2025/main/roadmap/cpp-roadmap.svg">        
@@ -431,9 +432,8 @@ auto attributed = [] [[nodiscard]] (int x) { return x * x; };
 - [Ninja + ccache](https://ccache.dev/)：编译提速 5–10 倍
 - [include-what-you-use](https://include-what-you-use.org/)：头文件依赖分析
 - [cpplint](https://github.com/cpplint/cpplint)：Google 风格检查
-- [GitHub Copilot / Codeium / Tabnine](https://github.com/features/copilot)：AI 补全（2025 年标配）
+- [GitHub Copilot / Codeium / Tabnine](https://github.com/features/copilot)：AI 补全
 
-这样一套工具链装完，从写代码 → 编译 → 调试 → 性能分析 → 部署 → CI/CD 全流程无死角，面试被问“你的开发环境怎么搭的？”直接甩这张表，面试官当场跪了。
 
 ## 应用方向
 | 应用方向 | 核心场景 | 推荐框架/库 |
