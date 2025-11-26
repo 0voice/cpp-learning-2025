@@ -45,7 +45,7 @@ Relevant discussions:
 - [Application Fields](#application-fields)
 - [Real-World Projects](#real-world-projects)
 - [Interview Preparation](#interview-preparation)
-
+- [Bjarne Stroustrup's FAQ](bjarne-stroustrups-faq)
 ## Learning Roadmap
 
   <img src="https://raw.githubusercontent.com/0voice/awesome-modern-cpp-2025/main/roadmap/cpp-roadmap.en.svg">
@@ -382,116 +382,186 @@ Difficulty guide (from a true zero-basis perspective):
 
 ## Tools
 ### Compilers
-- [GCC](https://gcc.gnu.org/) – Open-source, cross-platform, de-facto standard on Linux/Unix
-- [Clang/LLVM](https://clang.llvm.org/) – Modern compiler with excellent diagnostics and fast compilation
-- [MSVC](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) – Microsoft Visual C++, native Windows compiler (part of Visual Studio)
+- [GCC](https://gcc.gnu.org/) – Open-source, cross-platform king
+- [Clang/LLVM](https://clang.llvm.org/) – Modern compiler with excellent diagnostics
+- [MSVC](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) – Native Windows compiler (Visual Studio)
+- [MinGW-w64](https://www.mingw-w64.org/) – GCC on Windows
+- [Intel oneAPI DPC++/C++ Compiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html) – AVX-512 & vectorization beast
+- [Emscripten](https://emscripten.org/) – Compile C++ to WebAssembly
 
-### Integrated Development Environments (IDEs) & Editors
-- [Visual Studio](https://visualstudio.microsoft.com/) – Full-featured flagship IDE (Windows)
-- [CLion](https://www.jetbrains.com/clion/) – Powerful cross-platform IDE by JetBrains
-- [VS Code](https://code.visualstudio.com/) – Lightweight, highly extensible editor (with C/C++ extension)
-- [Code::Blocks](http://www.codeblocks.org/) – Free, open-source, cross-platform IDE
-- [Dev-C++](https://www.dev-cpp.com/) – Simple and lightweight IDE (Windows)
+### Integrated Development Environments (IDEs)
+- [Visual Studio](https://visualstudio.microsoft.com/) – Full-featured Windows powerhouse
+- [CLion](https://www.jetbrains.com/clion/) – Best JetBrains C++ IDE
+- [VS Code + C/C++ extensions](https://code.visualstudio.com/) – Lightweight & hugely popular
+- [Qt Creator](https://www.qt.io/product/development-tools) – Official Qt IDE
+- [VS Code + CMake Tools + clangd](https://code.visualstudio.com/) – The most popular combo in 2025
+- [CodeLite](https://codelite.org/) – Free open-source alternative
+- [Cevelop](https://www.cevelop.com/) – Modernized Eclipse CDT fork
 
 ### Build Systems
-- [CMake](https://cmake.org/) – Industry-standard cross-platform build generator (must-learn)
-- [Make](https://www.gnu.org/software/make/) – Classic Unix Makefile tool
-- [Ninja](https://ninja-build.org/) – Small, high-speed build system (often used with CMake)
+- [CMake](https://cmake.org/) – De-facto industry standard
+- [Meson](https://mesonbuild.com/) – Faster & cleaner than CMake (fastest growing in 2025)
+- [Ninja](https://ninja-build.org/) – Extremely fast build backend
+- [Bazel](https://bazel.build/) – Google-scale monorepo build system
+- [xmake](https://xmake.io/) – Modern Chinese build system with Lua config (very smooth)
+- [Premake](https://premake.github.io/) – Lightweight cross-platform project generator
 
-### Debuggers
-- [GDB](https://sourceware.org/gdb/) – GNU Debugger, powerful open-source debugger
-- [LLDB](https://lldb.llvm.org/) – LLVM project debugger (faster startup, better integration with Clang)
-
-### Version Control
-- [Git](https://git-scm.com/) – Distributed version control system (essential for all developers)
+### Debuggers & Performance Profiling
+- [GDB](https://sourceware.org/gdb/) / [LLDB](https://lldb.llvm.org/) – Classic command-line debuggers
+- [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) – Windows kernel & driver debugging
+- [Tracy Profiler](https://github.com/wolfpld/tracy) – Hottest frame-level profiler in 2025
+- [Perfetto](https://perfetto.dev/) – Google’s system-wide tracing tool
+- [Valgrind](https://valgrind.org/) + [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html) – Memory error detectors
+- [RenderDoc](https://renderdoc.org/) – Graphics debugging (Vulkan/DX/OpenGL)
 
 ### Package Managers
-- [vcpkg](https://vcpkg.io/) – Microsoft’s C/C++ library manager (easy integration with Visual Studio & CMake)
-- [Conan](https://conan.io/) – Decentralized, open-source C/C++ package manager
+- [vcpkg](https://vcpkg.io/) – Microsoft official, seamless VS integration
+- [Conan 2.x](https://conan.io/) – Most mature C++ package manager
+- [cppan](https://cppan.org/) – Veteran (still usable)
+- [Hunter](https://github.com/cpp-pm/hunter) – Native CMake integration
+- [Buckaroo](https://buckaroo.pm/) – Modern newcomer
 
-### Code Analysis & Testing
-- [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) – Modern static analyzer and code fixer
-- [Cppcheck](https://cppcheck.sourceforge.net/) – Static analysis tool for finding bugs
-- [Google Test](https://github.com/google/googletest) – Google’s C++ testing framework (industry standard)
-- [Catch2](https://github.com/catchorg/Catch2) – Header-only, lightweight testing framework
+### Static Analysis & Testing
+- [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) – Official static analyzer
+- [Cppcheck](https://cppcheck.net/) – Lightweight bug finder
+- [PVS-Studio](https://pvs-studio.com/) – Industrial-grade analyzer (free for open-source)
+- [Google Test](https://github.com/google/googletest) / [Catch2](https://github.com/catchorg/Catch2) – Industry-standard testing frameworks
+- [doctest](https://github.com/doctest/doctest) – Single-header, ultra-lightweight testing
+- [ApprovalTests.cpp](https://github.com/approvals/ApprovalTests.cpp) – Golden-master / snapshot testing
 
-### Development Utilities
-- [Clang-Format](https://clang.llvm.org/docs/ClangFormat.html) – Automatic code formatter (enforces consistent style)
-- [Valgrind](https://valgrind.org/) – Memory leak detection & profiling (Linux/macOS)
-- [Perf](https://perfwiki.github.io/main/) – Linux performance analysis tool
-- [Docker](https://www.docker.com/) – Containerization for consistent build & runtime environments
+### Code Formatting & Refactoring
+- [clang-format](https://clang.llvm.org/docs/ClangFormat.html) – Industry standard formatter
+- [uncrustify](https://github.com/uncrustify/uncrustify) – Highly configurable
+- [astyle](http://astyle.sourceforge.net/) – Veteran formatter
+- [Sourcery](https://sourcery.ai/) (paid) – AI-powered refactoring suggestions
+
+### Memory & Performance Tools
+- [Valgrind](https://valgrind.org/) – Heavyweight memory checker
+- [Address/Memory/Thread Sanitizers](https://clang.llvm.org/docs/) – Built into Clang/GCC
+- [gperftools](https://github.com/gperftools/gperftools) – CPU & heap profiler
+- [tcmalloc](https://github.com/google/tcmalloc) – High-performance allocator
+
+### Documentation & Visualization
+- [Doxygen](https://www.doxygen.nl/) – Classic code documentation generator
+- [Sphinx + Breathe](https://www.sphinx-doc.org/) – Modern documentation system
+- [Graphviz](https://graphviz.org/) – Class / call-graph visualization
+
+### Development Helpers
+- [Git](https://git-scm.com/) + [GitKraken](https://www.gitkraken.com/) / [Fork](https://git-fork.com/) – Version control
+- [Docker](https://www.docker.com/) – Environment isolation
+- [CMake GUI / ccmake](https://cmake.org/cmake/gui/) – Visual CMake configuration
+- [Ninja + ccache](https://ccache.dev/) – 5–10× faster incremental builds
+- [include-what-you-use](https://include-what-you-use.org/) – Header dependency analyzer
+- [cpplint](https://github.com/cpplint/cpplint) – Google style checker
+- [GitHub Copilot / Codeium / Tabnine](https://github.com/features/copilot) – AI-powered code completion
 
 ## Application Fields
-| Application Domain       | Core Scenarios                                      | Recommended Frameworks/Libraries                                                                 |
-|--------------------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| **Desktop App Development** | Office software, industrial control interfaces, desktop tools, design software | [Qt](https://www.qt.io/): Cross-platform full-stack framework with GUI, networking, database, multimedia.<br>[MFC](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications): Native Windows framework for legacy projects.<br>[wxWidgets](https://www.wxwidgets.org/): Lightweight cross-platform framework with native look & feel.<grok-card data-id="e563d7" data-type="citation_card"></grok-card><grok-card data-id="ab9310" data-type="citation_card"></grok-card> |
-| **Embedded Development** | In-vehicle infotainment, smart home panels, medical devices, industrial controllers, router firmware | [Qt for Embedded](https://www.qt.io/qt-for-embedded-linux): Embedded GUI for ARM etc.<br>[Zephyr RTOS](https://www.zephyrproject.org/): Scalable open-source RTOS for resource-constrained IoT.<br>[FreeRTOS](https://www.freertos.org/): Lightweight RTOS for resource-limited devices.<grok-card data-id="17f3e4" data-type="citation_card"></grok-card><grok-card data-id="293dde" data-type="citation_card"></grok-card> |
-| **Backend/Server Development** | Distributed systems, API gateways, database kernels, high-concurrency services (game servers, payment systems) | [Boost.Asio](https://www.boost.org/doc/libs/1_85_0/doc/html/boost_asio.html): Asynchronous networking for TCP/UDP/HTTP.<br>[Muduo](https://github.com/chenshuo/muduo): Reactor-pattern high-concurrency server.<br>[brpc](https://github.com/apache/brpc): Industrial-grade RPC framework with multi-protocol support.<br>[Drogon](https://drogon.org/): Fast HTTP framework with async I/O + ORM.<grok-card data-id="01d022" data-type="citation_card"></grok-card><grok-card data-id="b8dba9" data-type="citation_card"></grok-card> |
-| **Game Development**    | AAA game clients, game engines, game servers, indie games | [Unreal Engine](https://www.unrealengine.com/): Open-source engine with Blueprint system + C++.<br>[Godot Engine](https://godotengine.org/): Free open-source engine with C++ support (via GDExtension).<br>[O3DE](https://o3de.org/): Open 3D Engine by Amazon, modular C++ architecture.<grok-card data-id="ad021b" data-type="citation_card"></grok-card><grok-card data-id="99fe34" data-type="citation_card"></grok-card> |
-| **Audio/Video Streaming** | Players, live streaming push/pull, video editing, transcoding, surveillance | [FFmpeg](https://ffmpeg.org/): Comprehensive audio/video processing (decode/encode/transmit).<br>[GStreamer](https://gstreamer.freedesktop.org/): Streaming media pipeline framework.<br>[SDL](https://www.libsdl.org/): Multimedia library for audio/rendering.<br>[OpenCV](https://opencv.org/): Video analysis (e.g., face recognition).<grok-card data-id="213fd8" data-type="citation_card"></grok-card><grok-card data-id="3029b2" data-type="citation_card"></grok-card> |
-| **AI/Machine Learning**  | Deep learning framework backends, model inference optimization, high-performance computing (HPC) | [TensorFlow C++ API](https://www.tensorflow.org/api_docs/cc): Model deployment interface.<br>[LibTorch (PyTorch C++)](https://pytorch.org/cppdocs/): Dynamic graph inference library.<br>[OpenCV](https://opencv.org/): Image preprocessing/feature extraction.<br>[Eigen](http://eigen.tuxfamily.org/): High-performance matrix library.<br>[ONNX Runtime](https://onnxruntime.ai/): Cross-framework inference engine.<grok-card data-id="a55ab9" data-type="citation_card"></grok-card> |
-| **Systems/Kernel Development** | OS kernels, drivers, database kernels, file systems | [Linux Kernel](https://www.kernel.org/): Kernel API development.<br>[WDF/KMDF](https://learn.microsoft.com/en-us/windows-hardware/drivers/wdf/): Windows driver framework.<br>[SQLite](https://www.sqlite.org/): Embedded database kernel. |
-| **FinTech/High-Frequency Trading** | HFT systems, quant trading engines, financial risk systems (low-latency, high-reliability) | [QuickFIX](http://www.quickfixengine.org/): FIX protocol library.<br>[Boost.Asio](https://www.boost.org/): Low-latency networking.<br>Custom lock-free data structures & kernel bypass techniques.<grok-card data-id="85980e" data-type="citation_card"></grok-card><grok-card data-id="f55608" data-type="citation_card"></grok-card> |
+
+| Domain                     | Core Scenarios                                                                 | Recommended Frameworks / Libraries                                                                                                    |
+|----------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Desktop Application Development** | Office software, industrial control panels, desktop utilities, design tools    | [Qt](https://www.qt.io/) – Full-stack cross-platform framework (GUI, networking, DB, multimedia)<br>[MFC](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications) – Native Windows framework (good for legacy)<br>[wxWidgets](https://www.wxwidgets.org/) – Cross-platform, native look & feel<br>[FLTK](http://www.fltk.org/) – Fast Light Toolkit<br>[ImGui](https://github.com/ocornut/imgui) – Immediate-mode GUI, minimal dependencies<br>[JUCE](https://juce.com/) – All-in-one cross-platform audio/application framework |
+| **Embedded Development**   | Car infotainment, smart home panels, medical devices, industrial controllers, router firmware | [Qt for Embedded](https://www.qt.io/qt-for-embedded-linux) – GUI on ARM etc.<br>[FreeRTOS](https://www.freertos.org/) – Lightweight RTOS<br>[Yocto / Buildroot](https://www.yoctoproject.org/) – Embedded Linux distro builders<br>[ETL](https://github.com/ETLCPP/etl) – Embedded Template Library (no STL)<br>[tbox](https://github.com/tboox/tbox) – Cross-platform glib-like utils<br>[lwIP](https://savannah.nongnu.org/projects/lwip/) – Lightweight TCP/IP stack<br>[DPDK](https://www.dpdk.org/) – High-speed packet processing |
+| **Backend / Server Development** | Distributed systems, API gateways, database kernels, high-concurrency services (game servers, payment systems) | [Boost.Asio](https://www.boost.org/doc/libs/1_85_0/doc/html/boost_asio.html) – Async networking<br>[Muduo](https://github.com/chenshuo/muduo) – High-performance Reactor server<br>[Brpc](https://github.com/apache/incubator-brpc) – Multi-protocol RPC framework<br>[Drogon](https://drogon.org/) – Async HTTP + ORM framework<br>[Seastar](https://seastar.io/) – Lock-free high-performance server framework<br>[Folly](https://github.com/facebook/folly) – Facebook’s high-performance library collection<br>[Crow](https://crowcpp.org/) – Micro web framework (Flask-like) |
+| **Game Development**       | AAA game clients, game engines, game servers, indie games                     | [Unreal Engine](https://www.unrealengine.com/) – Open-source engine with Blueprints + C++<br>[Cocos2d-x](https://www.cocos.com/en/cocos2d-x) – Cross-platform 2D engine<br>[Unity](https://unity.com/) – C# on top + C++ plugins<br>[raylib](https://www.raylib.com/) – Simple & fun game programming library<br>[SFML](https://www.sfml-dev.org/) – Simple and Fast Multimedia Library<br>[SDL2](https://www.libsdl.org/) – Low-level multimedia layer<br>[EnTT](https://github.com/skypjack/entt) – Modern C++ ECS framework |
+| **Audio/Video & Streaming** | Players, live streaming (push/pull), video editing, transcoding, surveillance | [FFmpeg](https://ffmpeg.org/) – The Swiss army knife of multimedia<br>[GStreamer](https://gstreamer.freedesktop.org/) – Pipeline-based media framework<br>[SDL](https://www.libsdl.org/) – Audio & rendering<br>[OpenCV](https://opencv.org/) – Computer vision & video analysis<br>[PortAudio](http://www.portaudio.com/) – Cross-platform audio I/O<br>[miniaudio](https://miniaud.io/) – Single-header audio library<br>[libav](https://libav.org/) – FFmpeg-based multimedia toolkit |
+| **AI / Machine Learning**  | Deep-learning inference, model optimization, high-performance computing (HPC) | [TensorFlow C++ API](https://www.tensorflow.org/api_docs/cc)<br>[LibTorch (PyTorch C++)](https://pytorch.org/cppdocs/) – Dynamic-graph inference<br>[OpenCV](https://opencv.org/) – Image preprocessing<br>[Eigen](http://eigen.tuxfamily.org/) – Linear algebra<br>[ONNX Runtime](https://onnxruntime.ai/) – Cross-framework inference engine<br>[Dlib](https://dlib.net/) – ML toolkit<br>[ncnn](https://github.com/Tencent/ncnn) – Mobile neural-network inference<br>[mlpack](https://mlpack.org/) – Scalable ML library |
+| **Systems Programming / Kernel** | OS kernels, drivers, database engines, filesystems                           | [Linux Kernel](https://www.kernel.org/) – Kernel API development<br>[WDF/KMDF](https://learn.microsoft.com/en-us/windows-hardware/drivers/wdf/) – Windows driver framework<br>[SQLite](https://www.sqlite.org/) – Embedded DB engine<br>[Boost](https://www.boost.org/) – General-purpose libraries<br>[Abseil](https://abseil.io/) – Google’s common C++ libraries<br>[jemalloc](https://jemalloc.net/) – High-performance allocator |
+| **FinTech / High-Frequency Trading** | HFT engines, quant trading platforms, risk systems (ultra-low latency)       | [QuickFIX](http://www.quickfixengine.org/) – FIX protocol engine<br>[Boost.Asio](https://www.boost.org/) – Low-latency networking<br>[QuantLib](https://www.quantlib.org/) – Open-source quantitative finance library |
 
 ## Real-World Projects
+### Desktop Application Development
+| Project | Difficulty | Core Skills |
+|-------|------------|-------------|
+| [ocornut/imgui](https://github.com/ocornut/imgui) | ★★☆☆☆ | Immediate-mode GUI, debugging overlays |
+| [microsoft/terminal](https://github.com/microsoft/terminal) | ★★★★☆ | Large-scale modern desktop, GPU-accelerated rendering |
+| [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | ★★★☆☆ | Screenshot tool, Qt + image processing |
+| [deskflow/deskflow](https://github.com/deskflow/deskflow) (ex-Barrier) | ★★★★☆ | Cross-computer mouse/keyboard sharing, networking |
+| [transmission/transmission](https://github.com/transmission/transmission) | ★★★☆☆ | Cross-platform BitTorrent client, async I/O |
+| [qBittorrent/qBittorrent](https://github.com/qBittorrent/qBittorrent) | ★★★☆☆ | Full-featured Qt torrent client |
+| [sqlitebrowser/sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser) | ★★★☆☆ | Database visualization tool, SQL parsing |
+| [mltframework/shotcut](https://github.com/mltframework/shotcut) | ★★★★☆ | Professional video editor, FFmpeg integration |
+| [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | ★★★☆☆ | Android screen mirroring, low-latency USB/Wi-Fi |
 
-### Embedded / IoT / RTOS
-| Project                                                          | Difficulty | Core Skills Learned                                  |
-|------------------------------------------------------------------|------------|------------------------------------------------------|
-| [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson)         | ★☆☆☆☆     | Static-memory JSON parsing (embedded must-know)      |
-| [lvgl/lvgl](https://github.com/lvgl/lvgl)                                 | ★★☆☆☆     | Most popular embedded GUI library                    |
-| [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) | ★★★★☆     | Modern RTOS, BLE, drivers, device tree               |
-| [platformio/platformio-core](https://github.com/platformio/platformio-core) | ★★★☆☆   | Full-stack embedded build system                     |
-| [espressif/esp-idf](https://github.com/espressif/esp-idf)                 | ★★★★☆     | Official ESP32 SDK, FreeRTOS, low-power design       |
+### Embedded Development
+| Project | Difficulty | Core Skills |
+|-------|------------|-------------|
+| [lvgl/lvgl](https://github.com/lvgl/lvgl) | ★★☆☆☆ | Leading embedded GUI library |
+| [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) | ★★★★☆ | Modern RTOS, BLE, drivers |
+| [espressif/esp-idf](https://github.com/espressif/esp-idf) | ★★★★☆ | Official ESP32 SDK, low-power |
+| [ARM-software/CMSIS_5](https://github.com/ARM-software/CMSIS_5) | ★★★☆☆ | ARM Cortex standard interface |
+| [wolfSSL/wolfSSL](https://github.com/wolfSSL/wolfSSL) | ★★★☆☆ | Lightweight TLS/SSL for embedded |
+| [project-chip/connectedhomeip](https://github.com/project-chip/connectedhomeip) | ★★★★☆ | Matter (smart home) protocol stack |
 
-### Backend / High-Performance Servers
-| Project                                                          | Difficulty | Core Skills Learned                                  |
-|------------------------------------------------------------------|------------|------------------------------------------------------|
-| [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib)             | ★☆☆☆☆     | Single-header HTTP server (perfect first project)   |
-| [drogonframework/drogon](https://github.com/drogonframework/drogon)       | ★★☆☆☆     | High-performance async web framework + ORM           |
-| [chenshuo/muduo](https://github.com/chenshuo/muduo)                       | ★★★★☆     | Classic Reactor pattern, event-driven networking     |
-| [apache/brpc](https://github.com/apache/brpc)                             | ★★★★☆     | Industrial-grade RPC, bthread, zero-copy             |
-| [Tencent/libco](https://github.com/Tencent/libco)                         | ★★★★☆     | Coroutine library (used in WeChat backend)           |
-| [scylladb/seastar](https://github.com/scylladb/seastar)                   | ★★★★★     | Share-nothing, lock-free, million QPS framework      |
-| [userver-framework/userver](https://github.com/userver-framework/userver) | ★★★★★     | Modern C++20 coroutine service framework             |
+### Backend / Server Development
+| Project | Difficulty | Core Skills |
+|-------|------------|-------------|
+| [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | ★☆☆☆☆ | Header-only HTTP server |
+| [drogonframework/drogon](https://github.com/drogonframework/drogon) | ★★☆☆☆ | High-performance async web framework |
+| [chenshuo/muduo](https://github.com/chenshuo/muduo) | ★★★★☆ | Classic Reactor network library |
+| [apache/brpc](https://github.com/apache/brpc) | ★★★★☆ | Baidu RPC framework, bthread |
+| [scylladb/seastar](https://github.com/scylladb/seastar) | ★★★★★ | Shard-per-core, lock-free, million QPS |
+| [grpc/grpc](https://github.com/grpc/grpc) | ★★★★☆ | High-performance RPC, Protobuf |
+| [oatpp/oatpp](https://github.com/oatpp/oatpp) | ★★☆☆☆ | Zero-dependency web framework + ORM |
 
-### Game Development & Engines
-| Project                                                          | Difficulty | Core Skills Learned                                  |
-|------------------------------------------------------------------|------------|------------------------------------------------------|
-| [SFML/SFML](https://github.com/SFML/SFML)                                 | ★☆☆☆☆     | Lightweight 2D multimedia library                    |
-| [skypjack/entt](https://github.com/skypjack/entt)                         | ★★☆☆☆     | Industry-standard ECS (Entity-Component-System)      |
-| [raylib](https://github.com/raysan5/raylib) (raylib-cpp wrapper)          | ★★☆☆☆     | Extremely simple game dev library                    |
-| [TheCherno/Hazel](https://github.com/TheCherno/Hazel)                     | ★★★★☆     | From-scratch game engine (amazing teaching series)   |
-| [godotengine/godot](https://github.com/godotengine/godot)                 | ★★★★☆     | Full open-source engine with C++ modules/GDExtension |
-| [o3de/o3de](https://github.com/o3de/o3de)                                 | ★★★★★     | Amazon’s Open 3D Engine (AAA-grade)                  |
+### Game Development
+| Project | Difficulty | Core Skills |
+|-------|------------|-------------|
+| [SFML/SFML](https://github.com/SFML/SFML) | ★☆☆☆☆ | Simple 2D multimedia layer |
+| [skypjack/entt](https://github.com/skypjack/entt) | ★★☆☆☆ | Modern ECS architecture |
+| [raysan5/raylib](https://github.com/raysan5/raylib) | ★★☆☆☆ | Minimalist game programming library |
+| [TheCherno/Hazel](https://github.com/TheCherno/Hazel) | ★★★★☆ | From-scratch engine (educational) |
+| [godotengine/godot](https://github.com/godotengine/godot) | ★★★★☆ | Full open-source engine |
+| [bkaradzic/bgfx](https://github.com/bkaradzic/bgfx) | ★★★★☆ | Cross-platform rendering backend |
+| [NVIDIA-Omniverse/PhysX](https://github.com/NVIDIA-Omniverse/PhysX) | ★★★★☆ | Physics simulation engine |
 
-### Audio / Video / Streaming
-| Project                                                          | Difficulty | Core Skills Learned                                  |
-|------------------------------------------------------------------|------------|------------------------------------------------------|
-| [obsproject/obs-studio](https://github.com/obsproject/obs-studio)         | ★★★★☆     | Real-time streaming, plugin architecture, GPU       |
-| [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)                         | ★★★★☆     | The ultimate audio/video codec toolbox               |
-| [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx)             | ★★★☆☆     | Zero-dependency RTSP/WebRTC/HLS server               |
-| [Haivision/srt](https://github.com/Haivision/srt)                         | ★★★★☆     | Secure Reliable Transport (low-latency over UDP)    |
-| [isl-org/Open3D](https://github.com/isl-org/Open3D)                       | ★★★★☆     | 3D data processing, point clouds, reconstruction     |
+### Audio/Video & Streaming
+| Project | Difficulty | Core Skills |
+|-------|------------|-------------|
+| [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | ★★★★☆ | Live streaming, plugin system |
+| [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) | ★★★★☆ | Complete multimedia processing suite |
+| [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | ★★★☆☆ | Zero-dependency RTMP/RTSP/WebRTC server |
+| [Haivision/srt](https://github.com/Haivision/srt) | ★★★★☆ | Secure Reliable Transport protocol |
+| [GStreamer/gstreamer](https://github.com/GStreamer/gstreamer) | ★★★★☆ | Pipeline-based media framework |
 
-### AI / Machine Learning / Inference
-| Project                                                          | Difficulty | Core Skills Learned                                  |
-|------------------------------------------------------------------|------------|------------------------------------------------------|
-| [nlohmann/json](https://github.com/nlohmann/json)                         | ★☆☆☆☆     | Header-only JSON (used everywhere in ML pipelines)  |
-| [opencv/opencv](https://github.com/opencv/opencv)                         | ★★★☆☆     | Image processing + DNN module                        |
-| [Tencent/ncnn](https://github.com/Tencent/ncnn)                           | ★★★☆☆     | Mobile & embedded deep learning inference            |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime)         | ★★★☆☆     | High-performance cross-platform inference engine     |
-| [pytorch/pytorch (LibTorch)](https://github.com/pytorch/pytorch)          | ★★★★☆     | Official PyTorch C++ frontend + custom operators     |
+### AI / Machine Learning
+| Project | Difficulty | Core Skills |
+|-------|------------|-------------|
+| [opencv/opencv](https://github.com/opencv/opencv) | ★★★☆☆ | Image processing & DNN module |
+| [Tencent/ncnn](https://github.com/Tencent/ncnn) | ★★★☆☆ | Mobile neural network inference |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | ★★★☆☆ | Cross-platform model inference |
+| [pytorch/pytorch (LibTorch)](https://github.com/pytorch/pytorch) | ★★★★☆ | C++ frontend, custom operators |
+| [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | ★★★★☆ | Intel inference engine & optimization |
+| [dmlc/xgboost](https://github.com/dmlc/xgboost) | ★★★★☆ | Gradient boosting library |
 
-### Systems / Kernel / Infrastructure
-| Project                                                          | Difficulty | Core Skills Learned                                  |
-|------------------------------------------------------------------|------------|------------------------------------------------------|
-| [gabime/spdlog](https://github.com/gabime/spdlog)                         | ★☆☆☆☆     | Blazing-fast logging library                         |
-| [sqlite/sqlite](https://github.com/sqlite/sqlite)                         | ★★★★☆     | Embedded database engine, B-tree implementation      |
-| [facebook/folly](https://github.com/facebook/folly)                       | ★★★★★     | Facebook’s core low-level library (futures, fibers)  |
-| [microsoft/Detours](https://github.com/microsoft/Detours)                 | ★★★★☆     | Windows API hooking                                  |
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)         | ★★★★★     | Columnar DBMS with vectorized execution              |
-| [torvalds/linux](https://github.com/torvalds/linux)                       | ★★★★★     | The Linux kernel (ultimate systems learning)         |
+### Systems Programming / Kernel
+| Project | Difficulty | Core Skills |
+|-------|------------|-------------|
+| [gabime/spdlog](https://github.com/gabime/spdlog) | ★☆☆☆☆ | Ultra-fast logging |
+| [sqlite/sqlite](https://github.com/sqlite/sqlite) | ★★★★☆ | Embedded database engine, B-tree |
+| [facebook/folly](https://github.com/facebook/folly) | ★★★★★ | Facebook infrastructure libraries |
+| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | ★★★★★ | Columnar DBMS, vectorized execution |
+| [torvalds/linux](https://github.com/torvalds/linux) | ★★★★★ | Linux kernel development |
+| [llvm/llvm-project](https://github.com/llvm/llvm-project) | ★★★★★ | Compiler infrastructure |
+
+### Data Processing & Storage
+| Project | Difficulty | Core Skills |
+|-------|------------|-------------|
+| [google/leveldb](https://github.com/google/leveldb) | ★★★☆☆ | LSM-tree key-value store |
+| [Tencent/rapidjson](https://github.com/Tencent/rapidjson) | ★★☆☆☆ | High-performance JSON parser |
+| [apache/thrift](https://github.com/apache/thrift) | ★★★☆☆ | Cross-language serialization & RPC |
+| [libevent/libevent](https://github.com/libevent/libevent) | ★★★☆☆ | Event notification library |
+
+### Security
+| Project | Difficulty | Core Skills |
+|-------|------------|-------------|
+| [openssl/openssl](https://github.com/openssl/openssl) | ★★★★☆ | Cryptography & SSL/TLS |
+| [curl/curl](https://github.com/curl/curl) | ★★★☆☆ | Secure HTTP client, certificate handling |
+
+### Distributed Systems
+| Project | Difficulty | Core Skills |
+|-------|------------|-------------|
+| [ceph/ceph](https://github.com/ceph/ceph) | ★★★★★ | Distributed object store & filesystem |
+| [etcd-io/etcd](https://github.com/etcd-io/etcd) (C++ client) | ★★★☆☆ | Distributed key-value store |
 
 ## Interview Preparation
 [The Role of the `static` Keyword](interview_questions/README.en.md#the-role-of-the-static-keyword)  
@@ -564,3 +634,104 @@ Difficulty guide (from a true zero-basis perspective):
 [Implement Mergesort](interview_questions/README.en.md#implement-mergesort)  
 [Implement String Reversal](interview_questions/README.en.md#implement-string-reversal)  
 [Implement Two Sum](interview_questions/README.en.md#implement-two-sum)
+
+
+## Bjarne Stroustrup's FAQ
+### General
+- [What's so great about classes?](https://www.stroustrup.com/bs_faq.html#class)
+- [What is "OOP" and what's so great about it?](https://www.stroustrup.com/bs_faq.html#oop)
+- [What is "generic programming" and what's so great about it?](https://www.stroustrup.com/bs_faq.html#generic)
+- [What is C++?](https://www.stroustrup.com/bs_faq.html#what-is)
+- [Why does C++ allow unsafe code?](https://www.stroustrup.com/bs_faq.html#unsafe)
+- [What is "multiparadigm programming"?](https://www.stroustrup.com/bs_faq.html#multiparadigm)
+- [Is C++ in decline?](https://www.stroustrup.com/bs_faq.html#decline)
+- [What's being done to improve C++?](https://www.stroustrup.com/bs_faq.html#improve)
+- [Is it true that ...?](https://www.stroustrup.com/bs_faq.html#true)
+
+### Learning C++
+- [What is the best book to learn C++ from?](https://www.stroustrup.com/bs_faq.html#best-book)
+- [How long does it take to learn C++?](https://www.stroustrup.com/bs_faq.html#How-long)
+- [Knowing C is a prerequisite for learning C++, right?](https://www.stroustrup.com/bs_faq.html#prerequisite)
+- [Should I learn a pure OO language before C++ to become a real OO programmer?](https://www.stroustrup.com/bs_faq.html#learn-pure)
+- [How do I start learning C++?](https://www.stroustrup.com/bs_faq.html#how-to-start)
+- [Will you help me with my homework?](https://www.stroustrup.com/bs_faq.html#homework)
+- [Where can I get a free C++ compiler?](https://www.stroustrup.com/bs_faq.html#free)
+- [What's the best way to improve my C++ programs?](https://www.stroustrup.com/bs_faq.html#improve-my-C++-programs)
+- [Does it matter which programming language I use?](https://www.stroustrup.com/bs_faq.html#which-programming-language)
+- [Where can I learn about the background of C++?](https://www.stroustrup.com/bs_faq.html#background)
+
+### Standardization
+- [Did the ANSI/ISO standards committee spoil C++?](https://www.stroustrup.com/bs_faq.html#spoil-C++)
+- [When will we have a C++ standard?](https://www.stroustrup.com/bs_faq.html#When-standard)
+- [Where can I get a machine-readable version of the standard?](https://www.stroustrup.com/bs_faq.html#machine-readable-standard)
+- [Are there any features you'd like to remove from C++?](https://www.stroustrup.com/bs_faq.html#remove-from-C++)
+- [Why doesn't C++ have garbage collection?](https://www.stroustrup.com/bs_faq.html#garbage-collection)
+- [Why doesn't C++ have a GUI?](https://www.stroustrup.com/bs_faq.html#gui)
+- [Why doesn't C++ support threads?](https://www.stroustrup.com/bs_faq.html#threads)
+- [What is the difference between C++98 and C++14?](https://www.stroustrup.com/bs_faq.html#C++03)
+- [What will the next standard look like?](https://www.stroustrup.com/bs_faq.html#When-next-standard)
+
+### Books
+- [When will you publish a 4th edition of "The C++ Programming Language"?](https://www.stroustrup.com/bs_faq.html#4th)
+- [Do you like e-books?](https://www.stroustrup.com/bs_faq.html#e-books)
+- [Where do I find free machine-readable copies of your books?](https://www.stroustrup.com/bs_faq.html#machinereadable)
+- [What's the difference between the "TC++PL" and "Programming" books?](https://www.stroustrup.com/bs_faq.html#3rd-programming)
+
+### Other languages
+- [Is Java the language you would have designed if you didn't have to be compatible with C?](https://www.stroustrup.com/bs_faq.html#Java)
+- [What do you think of C#?](https://www.stroustrup.com/bs_faq.html#Csharp)
+- [What do you think of C++/CLI?](https://www.stroustrup.com/bs_faq.html#CppCLI)
+- [What do you think of EC++?](https://www.stroustrup.com/bs_faq.html#EC++)
+- [C++ got its Object-Oriented concepts from Smalltalk?](https://www.stroustrup.com/bs_faq.html#from-Smalltalk)
+- [Do you really recommend Ada over C++ for larger projects?](https://www.stroustrup.com/bs_faq.html#Ada)
+- [Would you compare C++ to "some language"?](https://www.stroustrup.com/bs_faq.html#compare)
+- [Others do compare their languages to C++; doesn't that annoy you?](https://www.stroustrup.com/bs_faq.html#Others-do-compare)
+- [You won't compare C++ to other languages, but you write diatribes about C++?](https://www.stroustrup.com/bs_faq.html#diatribes)
+- [How can a legacy language like C++ compete with modern, advanced languages?](https://www.stroustrup.com/bs_faq.html#advanced)
+- [Why are you so keen on portability?](https://www.stroustrup.com/bs_faq.html#portability)
+
+### C and C++
+- [C is better than C++ for small projects, right?](https://www.stroustrup.com/bs_faq.html#C-is-better)
+- [Is C a subset of C++?](https://www.stroustrup.com/bs_faq.html#C-is-subset)
+- [What is the difference between C and C++?](https://www.stroustrup.com/bs_faq.html#difference)
+- [Do you really think that C and C++ could be merged into a single language?](https://www.stroustrup.com/bs_faq.html#merge)
+- [What do you think of C/C++?](https://www.stroustrup.com/bs_faq.html#C-slash)
+- [Why is the code generated for the "Hello world" program ten times larger for C++ than for C?](https://www.stroustrup.com/bs_faq.html#Hello-world)
+- [Why did you make C++ (almost) compatible with C?](https://www.stroustrup.com/bs_faq.html#whyC)
+
+### History of C++
+- [When was C++ invented?](https://www.stroustrup.com/bs_faq.html#invention)
+- [Why did you invent C++?](https://www.stroustrup.com/bs_faq.html#why)
+- [Why did AT&T support the development of C++?](https://www.stroustrup.com/bs_faq.html#why-ATT)
+- [Do you own C++?](https://www.stroustrup.com/bs_faq.html#revenues)
+- [Where did the name "C++" come from?](https://www.stroustrup.com/bs_faq.html#name)
+- [Which language did you use to write C++?](https://www.stroustrup.com/bs_faq.html#bootstrapping)
+- [Did you really not understand what you were doing?](https://www.stroustrup.com/bs_faq.html#understand)
+
+### Etc. C++ questions
+- [Why is C++ so BIG?](https://www.stroustrup.com/bs_faq.html#big)
+- [Is C++ an Object-Oriented language?](https://www.stroustrup.com/bs_faq.html#Object-Oriented-language)
+- [What is "legacy code"?](https://www.stroustrup.com/bs_faq.html#legacy)
+- [Is the number of C++ users still doubling every year?](https://www.stroustrup.com/bs_faq.html#number-of-C++-users)
+- [Does anyone use C++ these days?](https://www.stroustrup.com/bs_faq.html#use-C++)
+- [Why isn't C++ used for Operating Systems?](https://www.stroustrup.com/bs_faq.html#use-C++-for-OS)
+- [What do you think of Boost?](https://www.stroustrup.com/bs_faq.html#boost)
+- [What do you think of template metaprogramming?](https://www.stroustrup.com/bs_faq.html#metaprogramming)
+- [Did you expect C++ to become such a success?](https://www.stroustrup.com/bs_faq.html#C++success)
+- [What's a good certification for C++ programmers?](https://www.stroustrup.com/bs_faq.html#certification)
+- [What C++ compiler do you recommend? Which libraries?](https://www.stroustrup.com/bs_faq.html#recommend)
+- [Are lists evil?](https://www.stroustrup.com/bs_faq.html#list)
+
+### Personal
+- [How do you pronounce "Bjarne Stroustrup"?](https://www.stroustrup.com/bs_faq.html#pronounce)
+- [Can I ask you a question?](https://www.stroustrup.com/bs_faq.html#ask)
+- [Why don't you answer your email?](https://www.stroustrup.com/bs_faq.html#email)
+- [Why don't you make your website look modern?](https://www.stroustrup.com/bs_faq.html#looks)
+- [Is "bjarne" an impostor?](https://www.stroustrup.com/bs_faq.html#impostor)
+- [You are Swedish?](https://www.stroustrup.com/bs_faq.html#Swedish)
+- [Did you really say that?](https://www.stroustrup.com/bs_faq.html#really-say-that)
+- [Did you really give an interview to IEEE?](https://www.stroustrup.com/bs_faq.html#IEEE)
+- [Why did you go to work at Morgan Stanley?](https://www.stroustrup.com/bs_faq.html#morgan)
+- [Why did you go to work at Texas A&M University?](https://www.stroustrup.com/bs_faq.html#tamu)
+- [Why did you go to work at Bell labs?](https://www.stroustrup.com/bs_faq.html#btl)
+- [What are you working on now?](https://www.stroustrup.com/bs_faq.html#working-on-now)
