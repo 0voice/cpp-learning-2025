@@ -1,7 +1,7 @@
 # 2025最新 C++ 一站式资源库
 
 💡 从零基础到大厂面试的一站式导航  
-📚 学习路线、书籍、工具链、实战项目、面试题、标准提案……这里应有尽有，只为让你高效学习，少走弯路！
+📚 学习路线、书籍、工具链、实战项目、面试题……这里应有尽有，只为让你高效学习，少走弯路！
 <p>
   <a href="https://github.com/0voice/awesome-modern-cpp-2025/stargazers">
     <img src="https://img.shields.io/github/stars/0voice/awesome-modern-cpp-2025?color=ffcb47&label=%E2%AD%90%20Stars&style=for-the-badge" alt="Stars"/>
