@@ -1,0 +1,149 @@
+# C++ 标准委员会提案合集
+本仓库收集C++ 标准委员会所有重要提案 PDF，特别聚焦**Bjarne Stroustrup亲自撰写或联署的论文**。  
+- [P3704R0 - What are profiles? (2025)](https://wg21.link/p3704r0) —— C++ Profiles 核心提案
+- [P3651R0 - Dealing with pointer errors: Note to the C++ standards committee (2025)](https://wg21.link/p3651r0) —— 处理指针错误：致 C++ 标准委员会成员的说明
+- [P3650R0 - 21st Century C++ (2025)](https://wg21.link/p3650r0) —— 21世纪 C++
+- [P3611R0 - Dealing with pointer errors: Separating static and dynamic checking (2025)](https://wg21.link/p3611r0) —— 处理指针错误：分离静态检查和动态检查
+- [P3572R0 - Pattern matching (2025)](https://wg21.link/p3572r0) —— 模式匹配
+- [P3446R0 - Profile invalidation – eliminating dangling pointers (2024)](https://wg21.link/p3446r0) —— 配置文件失效 - 消除悬空指针
+- [P3447R0 - Profiles syntax (2024)](https://wg21.link/p3447r0) —— 配置文件语法
+- [P3406R0 - We need better performance testing (2024)](https://wg21.link/p3406r0) —— 我们需要更好的性能测试
+- [P3332R0 - Simpler Concepts for PM (2024)](https://wg21.link/p3332r0) —— PM 的更简单概念
+- [P3274R0 - A framework for Profile development (2024)](https://wg21.link/p3274r0) —— 配置文件开发框架
+- [P4000R0 - To Adopt or Not to Adopt a TS: That is the Question (2024)](https://wg21.link/p4000r0) —— 是否采用 TS：这是一个问题
+- [P3038R0 - Specific suggestions for initial profiles (2023)](https://wg21.link/p3038r0) —— 初始轮廓的具体建议
+- [P2816R0 - Safe Profiles: Type and Resource Safe Programming in ISO Standard C++ (2023)](https://wg21.link/p2816r0) —— 安全配置文件：ISO 标准 C++ 中的类型和资源安全编程
+- [P2759R1 - DG Opinion on ISO C++ Safety (2023)](https://wg21.link/p2759r1) —— DG 关于 ISO C++ 安全性的意见
+- [P2739R0 - Call to Action: Seriously consider "safety"; then take sensible action (2022)](https://wg21.link/p2739r0) —— 行动呼吁：认真思考“安全”问题；然后采取明智的行动
+- [P2687R0 - Design Alternatives for Type and Resource Safe C++ (2022)](https://wg21.link/p2687r0) —— 类型和资源安全的 C++ 的设计替代方案
+- [P2000R4 - Direction for ISO C++ (2022)](https://wg21.link/p2000r4) —— ISO C++ 方向
+- [P2468R2 - The Equality Operator You Are Looking For (2022)](https://wg21.link/p2468r2) —— 你正在寻找的等式运算符
+- [P2410R0 - Type and Resource Safety in Modern C++ (2021)](https://wg21.link/p2410r0) —— 现代 C++ 中的类型和资源安全
+- [P2411R0 - Thoughts on Pattern Matching (2021)](https://wg21.link/p2411r0) —— 关于模式匹配的思考
+- [P2465R3 - Standard Library Modules std and std.compat (2021)](https://wg21.link/p2465r3) —— 标准库模块 std 和 std.compat
+- [P2412R0 - Minimal Module Support for the Standard Library (2021)](https://wg21.link/p2412r0) —— 标准库的最小模块支持
+- [P2317R0 - C++ -- The Invisible Foundation of Everything (2021)](https://wg21.link/p2317r0) —— C++——万物之无形的基础
+- [P2000R1 - Direction for ISO C++ (2020)](https://wg21.link/p2000r1) —— ISO C++ 方向
+- [P1962R0 - How can you be so sure? (2019)](https://wg21.link/p1962r0) —— 你怎么能如此肯定？
+- [P1947R0 - C++ Exceptions and Alternatives (2019)](https://wg21.link/p1947r0) —— C++ 异常和替代方案
+- [P0939R4 - Direction for ISO C++ (2019)](https://wg21.link/p0939r4) —— ISO C++ 方向
+- [P1711R0 - How to Handle Contracts? (2019)](https://wg21.link/p1711r0) —— 如何处理合同？
+- [P1491R0 - Don't exacerbate the signed/unsigned problem (2019)](https://wg21.link/p1491r0) —— 不要加剧签名/未签名问题的混乱
+- [P1428R0 - Subscript and size should be signed (2019)](https://wg21.link/p1428r0) —— 下标和尺寸应加符号
+- [P1408R0 - Abandon observer_ptr (2019)](https://wg21.link/p1408r0) —— 放弃 observer_ptr
+- [P0939R2 - Direction for ISO C++ (2019)](https://wg21.link/p0939r2) —— ISO C++ 方向
+- [P0939R1 - Modules Alternative Syntax (2018)](https://wg21.link/p0939r1) —— 模块的语法替代方案
+- [P0939R1 - Direction for ISO C++ (2018)](https://wg21.link/p0939r1) —— ISO C++ 方向
+- [P1141R0 - Alternative Wording for Constrained Declarations (2018)](https://wg21.link/p1141r0) —— 约束声明的另一种方法
+- [P1079 - Minimal Solutions to Certain Problems with Concepts Syntax (2018)](https://wg21.link/p1079) —— 概念句法问题的最小解决方案
+- [P0977R0 - Remember the Vasa! (2018)](https://wg21.link/p0977r0) —— 记住瓦萨号！
+- [P0976R0 - The Cost of Paradigms (2018)](https://wg21.link/p0976r0) —— 范式的弊端
+- [P0694R3 - Contract-based Programming Support in C++ (2018)](https://wg21.link/p0694r3) —— C++ 中基于契约的编程支持
+- [P0581R1 - Standard Library Modules (2018)](https://wg21.link/p0581r1) —— 标准库模块
+- [P0939R0 - Direction for ISO C++ (2018)](https://wg21.link/p0939r0) —— ISO C++ 方向
+- [P0954R0 - How should we use reflection? (2018)](https://wg21.link/p0954r0) —— 我们想如何运用反射？
+- [P0955R0 - Modules and Macros (2018)](https://wg21.link/p0955r0) —— 模块和宏
+- [P0956R0 - Answers to Questions about Concepts Syntax Proposals (2018)](https://wg21.link/p0956r0) —— 概念语法建议的解答
+- [P0694R0 - Function Declarations with Concepts (2017)](https://wg21.link/p0694r0) —— 使用概念进行函数声明
+- [P0542R0 - Contract Design (2017)](https://wg21.link/p0542r0) —— 合同设计
+- [P0684R0 - Stability, Speed, and Deployment Plan for C++ (2017)](https://wg21.link/p0684r0) —— C++ 稳定性、速度和部署计划
+- [P0695R0 - Alternative Concepts (2017)](https://wg21.link/p0695r0) —— 替代概念
+- [P0542R0 - Contract-based Programming Support in C++ (2017)](https://wg21.link/p0542r0) —— C++ 中基于契约的编程支持
+- [P0557R1 - Concepts: The Future of Generic Programming (or "How to Design Good Concepts and Use Them Well") (2017)](https://wg21.link/p0557r1) —— 概念：通用编程的未来
+- [N2219 - Constant Expressions in the Standard Library (Rev 2) (2006)](https://wg21.link/n2219) —— 标准库中的常量表达式
+- [N2220 - Initializer Lists for Standard Containers (2007)](https://wg21.link/n2220) —— 标准容器的初始化列表
+- [N2221 - Concept Cross Analysis (2007)](https://wg21.link/n2221) —— 概念交叉分析
+- [N2215 - Initializer Lists (Rev. 3) (2007)](https://wg21.link/n2215) —— 初始列表
+- [N2214 - The Name of the Empty Pointer: nullptr (Rev. 3) (2007)](https://wg21.link/n2214) —— 空指针的名称：nullptr
+- [N2213 - Strongly-Typed Enums (Rev. 2) (2007)](https://wg21.link/n2213) —— 强类型枚举
+- [N2193 - Proposed Wording for Concepts (2007)](https://wg21.link/n2193) —— 概念的拟议措辞
+- [N2100 - Initializer Lists (Rev. 2) (2006)](https://wg21.link/n2100) —— 初始列表
+- [N2042 - Concepts (2006)](https://wg21.link/n2042) —— 概念
+- [N1984 - Type Inference from Variable Initializer Expressions (Rev. 4) (2006)](https://wg21.link/n1984) —— 从变量初始化表达式推断变量类型
+- [N1978 - Decltype (Rev. 5) (2006)](https://wg21.link/n1978) —— Decltype
+- [N1980 - Generalized Constant Expressions (Rev. 3) (2006)](https://wg21.link/n1980) —— 广义常数表达式
+- [N2027 - Rvalue References: A Brief Introduction (2006)](https://wg21.link/n2027) —— R值引用简述
+- [N1972 - Generalized Constant Expressions (Rev. 2) (2006)](https://wg21.link/n1972) —— 广义常数表达式
+- [N1891 - The Future of C++0x (2006)](https://wg21.link/n1891) —— C++0x 未来展望
+- [N1836 - The New C++ (2005)](https://wg21.link/n1836) —— 新 C++
+- [N1810 - Report on the Standardization of C++ (2005)](https://wg21.link/n1810) —— C++ 标准化报告
+- [N1729 - Proposed Wording for the Revision of ISO/IEC 14882 (2004)](https://wg21.link/n1729) —— C++ 标准修订措辞
+- [N1558 - Technical Report on C++ Library Extensions (2003)](https://wg21.link/n1558) —— C++ 库扩展报告
+- [N1513 - C++ Standard Library Defect Report Summary (2003)](https://wg21.link/n1513) —— 库缺陷报告
+- [N1428 - The C++ Standard and C (2002)](https://wg21.link/n1428) —— C++ 标准与 C 的关系
+- [N1316 - C++ Standard Library Issues List (2001)](https://wg21.link/n1316) —— 库问题列表
+- [N1256 - The C++ Standard Library Technical Report (2001)](https://wg21.link/n1256) —— 库技术报告
+- [N2679 - Initializer Lists for Standard Containers (Rev 1) (2008)](https://wg21.link/n2679) —— 标准容器的初始化列表
+- [N2773 - Alternative Implementations of Concepts (2008)](https://wg21.link/n2773) —— 概念备选实现
+- [N2532 - Unified Initialization Design Choices (Rev 2) (2008)](https://wg21.link/n2532) —— 统一初始化设计选择
+- [N2531 - Initializer List WP Wording (Rev 2) (2008)](https://wg21.link/n2531) —— 初始化列表 WP 措辞
+- [N2343 - Decltype (Rev 7) (2007)](https://wg21.link/n2343) —— Decltype
+- [N2347 - Strongly-Typed Enums (Rev 3) (2007)](https://wg21.link/n2347) —— 强类型枚举
+- [N2349 - Constant Expressions in the Standard Library (2007)](https://wg21.link/n2349) —— 标准库中的常量表达式
+- [N2378 - User-Defined Literals (Rev 3) (2007)](https://wg21.link/n2378) —— 用户自定义字面量
+- [N2385 - Initializer List WP Wording (2007)](https://wg21.link/n2385) —— 初始化列表 WP 措辞
+- [N2221 - Concept Cross Analysis (2007)](https://wg21.link/n2221) —— 概念交叉分析
+- [N2220 - Initializer Lists for Standard Containers (2007)](https://wg21.link/n2220) —— 标准容器的初始化列表
+- [N2219 - Constant Expressions in the Standard Library (Rev 2) (2007)](https://wg21.link/n2219) —— 标准库中的常量表达式
+- [N2215 - Initializer Lists (Rev. 3) (2007)](https://wg21.link/n2215) —— 初始列表
+- [N2214 - The Name of the Empty Pointer: nullptr (Rev. 3) (2007)](https://wg21.link/n2214) —— 空指针的名称：nullptr
+- [N2213 - Strongly-Typed Enums (Rev. 2) (2007)](https://wg21.link/n2213) —— 强类型枚举
+- [N2193 - Proposed Wording for Concepts (2007)](https://wg21.link/n2193) —— 概念的拟议措辞
+- [N2100 - Initializer Lists (Rev. 2) (2006)](https://wg21.link/n2100) —— 初始列表
+- [N2042 - Concepts (2006)](https://wg21.link/n2042) —— 概念
+- [N1984 - Type Inference from Variable Initializer Expressions (Rev. 4) (2006)](https://wg21.link/n1984) —— 从变量初始化表达式推断变量类型
+- [N1978 - Decltype (Rev. 5) (2006)](https://wg21.link/n1978) —— Decltype
+- [N2221 - Concept Cross Analysis (2007)](https://wg21.link/n2221) —— 概念交叉分析
+- [N2220 - Initializer Lists for Standard Containers (2007)](https://wg21.link/n2220) —— 标准容器的初始化列表
+- [N2219 - Constant Expressions in the Standard Library (Rev 2) (2007)](https://wg21.link/n2219) —— 标准库中的常量表达式
+- [N2215 - Initializer Lists (Rev. 3) (2007)](https://wg21.link/n2215) —— 初始列表
+- [N2214 - The Name of the Empty Pointer: nullptr (Rev. 3) (2007)](https://wg21.link/n2214) —— 空指针的名称：nullptr
+- [N2213 - Strongly-Typed Enums (Rev. 2) (2007)](https://wg21.link/n2213) —— 强类型枚举
+- [N2193 - Proposed Wording for Concepts (2007)](https://wg21.link/n2193) —— 概念的拟议措辞
+- [N2100 - Initializer Lists (Rev. 2) (2006)](https://wg21.link/n2100) —— 初始列表
+- [N2042 - Concepts (2006)](https://wg21.link/n2042) —— 概念
+- [N1984 - Type Inference from Variable Initializer Expressions (Rev. 4) (2006)](https://wg21.link/n1984) —— 从变量初始化表达式推断变量类型
+- [N1978 - Decltype (Rev. 5) (2006)](https://wg21.link/n1978) —— Decltype
+- [N1980 - Generalized Constant Expressions (Rev. 3) (2006)](https://wg21.link/n1980) —— 广义常数表达式
+- [N2027 - Rvalue References: A Brief Introduction (2006)](https://wg21.link/n2027) —— R值引用简述
+- [N1972 - Generalized Constant Expressions (Rev. 2) (2006)](https://wg21.link/n1972) —— 广义常数表达式
+- [N1891 - The Future of C++0x (2006)](https://wg21.link/n1891) —— C++0x 未来展望
+- [N1836 - The New C++ (2005)](https://wg21.link/n1836) —— 新 C++
+- [N1810 - Report on the Standardization of C++ (2005)](https://wg21.link/n1810) —— C++ 标准化报告
+- [N1729 - Proposed Wording for the Revision of ISO/IEC 14882 (2004)](https://wg21.link/n1729) —— C++ 标准修订措辞
+- [N1558 - Technical Report on C++ Library Extensions (2003)](https://wg21.link/n1558) —— C++ 库扩展报告
+- [N1513 - C++ Standard Library Defect Report Summary (2003)](https://wg21.link/n1513) —— 库缺陷报告
+- [N1428 - The C++ Standard and C (2002)](https://wg21.link/n1428) —— C++ 标准与 C 的关系
+- [N1316 - C++ Standard Library Issues List (2001)](https://wg21.link/n1316) —— 库问题列表
+- [N1256 - The C++ Standard Library Technical Report (2001)](https://wg21.link/n1256) —— 库技术报告
+- [N2679 - Initializer Lists for Standard Containers (Rev 1) (2008)](https://wg21.link/n2679) —— 标准容器的初始化列表
+- [N2532 - Unified Initialization Design Choices (Rev 2) (2008)](https://wg21.link/n2532) —— 统一初始化设计选择
+- [N2531 - Initializer List WP Wording (Rev 2) (2008)](https://wg21.link/n2531) —— 初始化列表 WP 措辞
+- [N2343 - Decltype (Rev 7) (2007)](https://wg21.link/n2343) —— Decltype
+- [N2347 - Strongly-Typed Enums (Rev 3) (2007)](https://wg21.link/n2347) —— 强类型枚举
+- [N2349 - Constant Expressions in the Standard Library (2007)](https://wg21.link/n2349) —— 标准库中的常量表达式
+- [N2378 - User-Defined Literals (Rev 3) (2007)](https://wg21.link/n2378) —— 用户自定义字面量
+- [N2385 - Initializer List WP Wording (2007)](https://wg21.link/n2385) —— 初始化列表 WP 措辞
+- [N2221 - Concept Cross Analysis (2007)](https://wg21.link/n2221) —— 概念交叉分析
+- [N2220 - Initializer Lists for Standard Containers (2007)](https://wg21.link/n2220) —— 标准容器的初始化列表
+- [N2219 - Constant Expressions in the Standard Library (Rev 2) (2007)](https://wg21.link/n2219) —— 标准库中的常量表达式
+- [N2215 - Initializer Lists (Rev. 3) (2007)](https://wg21.link/n2215) —— 初始列表
+- [N2214 - The Name of the Empty Pointer: nullptr (Rev. 3) (2007)](https://wg21.link/n2214) —— 空指针的名称：nullptr
+- [N2213 - Strongly-Typed Enums (Rev. 2) (2007)](https://wg21.link/n2213) —— 强类型枚举
+- [N2193 - Proposed Wording for Concepts (2007)](https://wg21.link/n2193) —— 概念的拟议措辞
+- [N2100 - Initializer Lists (Rev. 2) (2006)](https://wg21.link/n2100) —— 初始列表
+- [N2042 - Concepts (2006)](https://wg21.link/n2042) —— 概念提案（早期设计）
+- [N1984 - Type Inference from Variable Initializer Expressions (Rev. 4) (2006)](https://wg21.link/n1984) —— 从变量初始化表达式推断类型
+- [N1978 - Decltype (Rev. 5) (2006)](https://wg21.link/n1978) —— Decltype 修订版
+- [N1980 - Generalized Constant Expressions (Rev. 3) (2006)](https://wg21.link/n1980) —— 广义常数表达式
+- [N2027 - Rvalue References: A Brief Introduction (2006)](https://wg21.link/n2027) —— R值引用简介
+- [N1972 - Generalized Constant Expressions (Rev. 2) (2006)](https://wg21.link/n1972) —— 广义常数表达式修订
+- [N1891 - The Future of C++0x (2006)](https://wg21.link/n1891) —— C++0x 未来展望
+- [N1836 - The New C++ (2005)](https://wg21.link/n1836) —— 新 C++ 介绍
+- [N1810 - Report on the Standardization of C++ (2005)](https://wg21.link/n1810) —— C++ 标准化报告
+- [N1729 - Proposed Wording for the Revision of ISO/IEC 14882 (2004)](https://wg21.link/n1729) —— C++ 标准修订措辞
+- [N1558 - Technical Report on C++ Library Extensions (2003)](https://wg21.link/n1558) —— C++ 库扩展技术报告
+- [N1513 - C++ Standard Library Defect Report Summary (2003)](https://wg21.link/n1513) —— 库缺陷报告摘要
+- [N1428 - The C++ Standard and C (2002)](https://wg21.link/n1428) —— C++ 标准与 C 的关系
+- [N1316 - C++ Standard Library Issues List (2001)](https://wg21.link/n1316) —— 库问题列表
+- [N1256 - The C++ Standard Library Technical Report (2001)](https://wg21.link/n1256) —— 库技术报告
