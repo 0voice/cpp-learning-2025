@@ -46,6 +46,7 @@ Relevant discussions:
 - [Real-World Projects](#real-world-projects)
 - [Interview Preparation](#interview-preparation)
 - [Bjarne Stroustrup's FAQ](bjarne-stroustrups-faq)
+- [WG21 Papers](https://github.com/0voice/awesome-cpp-2025/tree/main/WG21-Papers)
 ## Learning Roadmap
 
   <img src="https://raw.githubusercontent.com/0voice/awesome-modern-cpp-2025/main/roadmap/cpp-roadmap.en.svg">
