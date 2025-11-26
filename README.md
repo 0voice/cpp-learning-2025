@@ -46,6 +46,7 @@
 - [应用方向](#应用方向)
 - [实战项目](#实战项目)
 - [面试题](#面试题)
+- [C++之父的问答](#c之父的faq)
 
 
 ## 学习路线
@@ -701,3 +702,51 @@ auto attributed = [] [[nodiscard]] (int x) { return x * x; };
 [如何进行 MySQL 的读写分离和分库分表？它们分别解决了什么问题？](interview_questions/README.md#如何进行-mysql-的读写分离和分库分表它们分别解决了什么问题)  
 [MySQL 索引为什么使用 B+树而不是 B 树或哈希表？](interview_questions/README.md#mysql-索引为什么使用-b+树而不是-b-树或哈希表)  
 [请详细描述 B+树的结构特点，InnoDB 中的 B+树索引有哪些优化？](interview_questions/README.md#请详细描述-b+树的结构特点innodb-中的-b+树索引有哪些优化)  
+
+
+## C++之父的FAQ
+### 概述
+- [类的伟大之处是什么？](https://www.stroustrup.com/bsfaqcn.html#class)
+- [什么是面向对象编程？它的伟大之处是什么？](https://www.stroustrup.com/bsfaqcn.html#oop)
+- [何谓泛型编程？其伟大之处何在？](https://www.stroustrup.com/bsfaqcn.html#generic)
+- [为什么 C++ 允许不安全的代码？](https://www.stroustrup.com/bsfaqcn.html#unsafe)
+
+### 学习 C++
+- [为了成为真正的 OO 程序员，在学 C++ 之前，我需要先学一门纯 OO 语言吗？](https://www.stroustrup.com/bsfaqcn.html#learn-pure)
+
+### 标准化
+- [为什么 C++ 没有图形用户接口？](https://www.stroustrup.com/bsfaqcn.html#gui)
+- [为什么 C++ 不支持线程？](https://www.stroustrup.com/bsfaqcn.html#threads)
+- [C++0x 会是什么样的？](https://www.stroustrup.com/bsfaqcn.html#When-next-standard)
+
+### 书籍
+- [何时会有新的 ARM ？](https://www.stroustrup.com/bsfaqcn.html#ARM)
+
+### 其它语言
+- [你怎么看C#？](https://www.stroustrup.com/bsfaqcn.html#Csharp)
+- [您怎么看待 C++/CLI？](https://www.stroustrup.com/bsfaqcn.html#CppCLI)
+- [您如何看待 EC++ ？](https://www.stroustrup.com/bsfaqcn.html#EC++)
+- [为何您如此看重可移植性？](https://www.stroustrup.com/bsfaqcn.html#portability)
+
+### C
+- [C 是 C++ 的子集吗？](https://www.stroustrup.com/bsfaqcn.html#C-is-subset)
+- [您真的认为 C 和 C++ 可以合并为同一种语言吗？](https://www.stroustrup.com/bsfaqcn.html#merge)
+- [您如何看待 C/C++ ？](https://www.stroustrup.com/bsfaqcn.html#C-slash)
+- [为何编译 C++ 版的“Hello World”程序生成的代码比 C 版的多十倍？](https://www.stroustrup.com/bsfaqcn.html#Hello-world)
+- [为何您把 C++ 设计得和 C（基本）兼容？](https://www.stroustrup.com/bsfaqcn.html#whyC)
+
+### C++ 的历史
+- [C++ 归您所有吗？](https://www.stroustrup.com/bsfaqcn.html#revenues)
+- [“C++”何得此名？](https://www.stroustrup.com/bsfaqcn.html#name)
+- [您是使用何种语言编写出 C++ 的呢？](https://www.stroustrup.com/bsfaqcn.html#bootstrapping)
+
+### 其它
+- [为何 C++ 如此庞大？](https://www.stroustrup.com/bsfaqcn.html#big)
+- [现在还有人使用 C++ 吗？](https://www.stroustrup.com/bsfaqcn.html#use-C++)
+- [为何 C++ 没被用于编写操作系统？](https://www.stroustrup.com/bsfaqcn.html#use-C++-for-OS)
+- [有什么好的认证是面向 C++ 程序员的吗？](https://www.stroustrup.com/bsfaqcn.html#certification)
+
+### 关于我
+- [为什么你不回复我的电子邮件？](https://www.stroustrup.com/bsfaqcn.html#email)
+- [“bjarne”是冒名顶替的吗？](https://www.stroustrup.com/bsfaqcn.html#impostor)
+- [那真是你说的吗？](https://www.stroustrup.com/bsfaqcn.html#really-say-that)
