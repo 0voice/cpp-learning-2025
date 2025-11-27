@@ -356,7 +356,7 @@ auto attributed = [] [[nodiscard]] (int x) { return x * x; };
 | [Codecademy](https://www.codecademy.com/learn/learn-c-plus-plus) | 互动式C++学习路径，通过浏览器编码练习基础到中级技能，结合项目实践。 |
 | [Coursera](https://www.coursera.org/courses?query=c%2B%2B) | 大学级C++在线课程集合，如加州大学和密歇根大学的专项，包含视频、测验和证书。 |
 | [CppReference](https://en.cppreference.com/w/) | 权威的C++标准库在线参考文档，精确描述API、模板和语言特性，适合专业开发者查询。 |
-| - [LeetCode](https://leetcode.com/problemset/all/?search=C%2B%2B) | 算法和编码挑战平台，支持C++提交，提供海量题目用于刷题和面试准备。 |
+| [LeetCode](https://leetcode.com/problemset/all/?search=C%2B%2B) | 算法和编码挑战平台，支持C++提交，提供海量题目用于刷题和面试准备。 |
 | [GitHub Awesome C++](https://github.com/fffaraz/awesome-cpp) | 精选C++开源资源列表，包括框架、库、书籍和工具，助力深入探索生态系统。 |
 
 ## 常用工具
