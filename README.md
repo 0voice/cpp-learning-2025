@@ -55,6 +55,7 @@
 - [面试题](#面试题)
 - [算法题](#算法题)
 - [C++之父的FAQ](#c之父的faq)
+- [资源声明](#资源声明)
 
 
 ## 学习路线
@@ -857,3 +858,15 @@ auto attributed = [] [[nodiscard]] (int x) { return x * x; };
 - [为什么你不回复我的电子邮件？](https://www.stroustrup.com/bsfaqcn.html#email)
 - [“bjarne”是冒名顶替的吗？](https://www.stroustrup.com/bsfaqcn.html#impostor)
 - [那真是你说的吗？](https://www.stroustrup.com/bsfaqcn.html#really-say-that)
+
+
+## 资源声明
+
+本仓库为个人学习、整理与分享用途，所有收录的资料、链接、代码片段均来源于网络公开资源。
+
+所有资源仅用于学习交流，不用于任何商业用途。  
+版权归原作者或原平台所有，仓库作者不拥有任何版权。
+
+如原作者或版权方认为链接收录不当，请通过 Issue 或邮件联系我，我将在第一时间删除相关内容或链接。
+
+感谢互联网上所有无私分享的前辈与作者，正是因为你们的公开资源，才让更多人能够低成本、高效率地学习 C++！
