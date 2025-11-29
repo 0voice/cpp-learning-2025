@@ -38,6 +38,11 @@
 - [C++ 的真相（值得你花时间吗？）](https://www.youtube.com/watch?v=q1ZmFc-sqNc)
 - [这才是你需要的 C 语言、C++ 学习路线](https://www.youtube.com/watch?v=gO4Jp78nM0g)
 
+想了解C++之父**Bjarne Stroustru**p采访中回答的C++相关问题，请参阅：[Bjarne Stroustrup's FAQ](#c之父的faq)。  
+
+想查阅C++ 标准委员会提案，请访问：[WG21-Papers](https://github.com/0voice/cpp-learning-2025/tree/main/WG21-Papers)。
+
+
 ## 目录
 - [学习路线](#学习路线)
 - [核心知识点](#核心知识点)
@@ -49,7 +54,7 @@
 - [实战项目](#实战项目)
 - [面试题](#面试题)
 - [算法题](#算法题)
-- [C++之父的回答](#c之父的faq)
+- [C++之父的FAQ](#c之父的faq)
 
 
 ## 学习路线
